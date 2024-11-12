@@ -1,0 +1,21 @@
+.cool-button {
+    background-color: #2575fc;
+    border: none;
+    color: white; 
+    padding: 12px 24px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px;
+    margin: 5px 2px; 
+    cursor: pointer; 
+    border-radius: 30px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    transition: background-image 0.5s ease, transform 0.2s; 
+  }
+  
+  .cool-button:hover{
+    background-color: #0040af;
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); 
+  }
