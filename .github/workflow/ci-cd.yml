@@ -1,4 +1,4 @@
-name: CI/CD for MERN Project
+name: CI/CD portfolio
 
 on:
   push:
