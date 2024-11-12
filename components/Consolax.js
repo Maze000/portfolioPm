@@ -124,7 +124,7 @@ const App = () => {
         <div className='avatar-init'>
         <div className="avatar">
           </div>
-          <Link activeClass="active" to="nombre" spy={true} smooth={true} offset={-60} duration={500} className="avatar-name" onClick={toggleMenu}><span>la puta y la concha de tu madre que te recontra repaio  PATRICIO </span> <span> MOLINA</span></Link>
+          <Link activeClass="active" to="nombre" spy={true} smooth={true} offset={-60} duration={500} className="avatar-name" onClick={toggleMenu}><span> PATRICIO </span> <span> MOLINA</span></Link>
           
         </div>
 

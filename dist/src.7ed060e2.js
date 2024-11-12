@@ -48611,7 +48611,7 @@ var App = function App() {
     duration: 500,
     className: "avatar-name",
     onClick: toggleMenu
-  }, /*#__PURE__*/_react.default.createElement("span", null, "  PATRICIO "), " ", /*#__PURE__*/_react.default.createElement("span", null, " MOLINA"))), /*#__PURE__*/_react.default.createElement(_reactScroll.Link, {
+  }, /*#__PURE__*/_react.default.createElement("span", null, " PATRICIO "), " ", /*#__PURE__*/_react.default.createElement("span", null, " MOLINA"))), /*#__PURE__*/_react.default.createElement(_reactScroll.Link, {
     activeClass: "active",
     to: "nombre",
     spy: true,
@@ -48836,7 +48836,18 @@ var App = function App() {
   }, /*#__PURE__*/_react.default.createElement("strong", null, " PATRICIO MOLINA")), ". All rights reserved.")))));
 };
 var _default = exports.default = App;
-},{"react":"../node_modules/react/index.js","react-scroll":"../node_modules/react-scroll/modules/index.js","./Contact.js":"../components/Contact.js","./consola.css":"../components/consola.css","../dist/img/1.png":"../dist/img/1.png","../dist/img/2.png":"../dist/img/2.png","../dist/img/3.png":"../dist/img/3.png","../dist/img/4.png":"../dist/img/4.png","../dist/img/5.png":"../dist/img/5.png","../dist/img/6.png":"../dist/img/6.png","../dist/img/7.png":"../dist/img/7.png","../dist/img/8.png":"../dist/img/8.png","../dist/img/9.png":"../dist/img/9.png","../dist/img/10.png":"../dist/img/10.png","../dist/img/11.png":"../dist/img/11.png","../dist/img/12.png":"../dist/img/12.png","../dist/img/13.png":"../dist/img/13.png","../dist/img/14.png":"../dist/img/14.png","../dist/img/15.png":"../dist/img/15.png","../dist/img/16.png":"../dist/img/16.png","../dist/img/17.png":"../dist/img/17.png","../dist/img/17p.png":"../dist/img/17p.png","../dist/img/11p.png":"../dist/img/11p.png","../dist/img/11p2.png":"../dist/img/11p2.png","../dist/img/12p.png":"../dist/img/12p.png","../dist/img/12p2.png":"../dist/img/12p2.png","../dist/img/13p.png":"../dist/img/13p.png","../dist/img/13p2.png":"../dist/img/13p2.png","../dist/img/14p.png":"../dist/img/14p.png","../dist/img/14p2.png":"../dist/img/14p2.png","../dist/img/15p.png":"../dist/img/15p.png","../dist/img/15p2.png":"../dist/img/15p2.png","../dist/img/16p.png":"../dist/img/16p.png","../dist/img/18p.png":"../dist/img/18p.png","../dist/img/19p.png":"../dist/img/19p.png","../dist/img/20p.png":"../dist/img/20p.png","../dist/img/21p.png":"../dist/img/21p.png","../dist/img/22p.png":"../dist/img/22p.png","../dist/img/23p.png":"../dist/img/23p.png","../dist/img/24p.png":"../dist/img/24p.png","../dist/img/25p.png":"../dist/img/25p.png","../dist/img/26p.png":"../dist/img/26p.png","../dist/img/27p.png":"../dist/img/27p.png","../dist/img/28p.png":"../dist/img/28p.png","../dist/img/29p.png":"../dist/img/29p.png","../dist/img/30p.png":"../dist/img/30p.png","../dist/img/31p.png":"../dist/img/31p.png","../dist/img/32p.png":"../dist/img/32p.png","../dist/img/33p.png":"../dist/img/33p.png","../dist/img/34p.png":"../dist/img/34p.png","../dist/img/35p.png":"../dist/img/35p.png","../dist/img/36p.png":"../dist/img/36p.png","../dist/img/37p.png":"../dist/img/37p.png","@fortawesome/react-fontawesome":"../node_modules/@fortawesome/react-fontawesome/index.es.js","@fortawesome/free-brands-svg-icons":"../node_modules/@fortawesome/free-brands-svg-icons/index.mjs"}],"../src/Appx.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-scroll":"../node_modules/react-scroll/modules/index.js","./Contact.js":"../components/Contact.js","./consola.css":"../components/consola.css","../dist/img/1.png":"../dist/img/1.png","../dist/img/2.png":"../dist/img/2.png","../dist/img/3.png":"../dist/img/3.png","../dist/img/4.png":"../dist/img/4.png","../dist/img/5.png":"../dist/img/5.png","../dist/img/6.png":"../dist/img/6.png","../dist/img/7.png":"../dist/img/7.png","../dist/img/8.png":"../dist/img/8.png","../dist/img/9.png":"../dist/img/9.png","../dist/img/10.png":"../dist/img/10.png","../dist/img/11.png":"../dist/img/11.png","../dist/img/12.png":"../dist/img/12.png","../dist/img/13.png":"../dist/img/13.png","../dist/img/14.png":"../dist/img/14.png","../dist/img/15.png":"../dist/img/15.png","../dist/img/16.png":"../dist/img/16.png","../dist/img/17.png":"../dist/img/17.png","../dist/img/17p.png":"../dist/img/17p.png","../dist/img/11p.png":"../dist/img/11p.png","../dist/img/11p2.png":"../dist/img/11p2.png","../dist/img/12p.png":"../dist/img/12p.png","../dist/img/12p2.png":"../dist/img/12p2.png","../dist/img/13p.png":"../dist/img/13p.png","../dist/img/13p2.png":"../dist/img/13p2.png","../dist/img/14p.png":"../dist/img/14p.png","../dist/img/14p2.png":"../dist/img/14p2.png","../dist/img/15p.png":"../dist/img/15p.png","../dist/img/15p2.png":"../dist/img/15p2.png","../dist/img/16p.png":"../dist/img/16p.png","../dist/img/18p.png":"../dist/img/18p.png","../dist/img/19p.png":"../dist/img/19p.png","../dist/img/20p.png":"../dist/img/20p.png","../dist/img/21p.png":"../dist/img/21p.png","../dist/img/22p.png":"../dist/img/22p.png","../dist/img/23p.png":"../dist/img/23p.png","../dist/img/24p.png":"../dist/img/24p.png","../dist/img/25p.png":"../dist/img/25p.png","../dist/img/26p.png":"../dist/img/26p.png","../dist/img/27p.png":"../dist/img/27p.png","../dist/img/28p.png":"../dist/img/28p.png","../dist/img/29p.png":"../dist/img/29p.png","../dist/img/30p.png":"../dist/img/30p.png","../dist/img/31p.png":"../dist/img/31p.png","../dist/img/32p.png":"../dist/img/32p.png","../dist/img/33p.png":"../dist/img/33p.png","../dist/img/34p.png":"../dist/img/34p.png","../dist/img/35p.png":"../dist/img/35p.png","../dist/img/36p.png":"../dist/img/36p.png","../dist/img/37p.png":"../dist/img/37p.png","@fortawesome/react-fontawesome":"../node_modules/@fortawesome/react-fontawesome/index.es.js","@fortawesome/free-brands-svg-icons":"../node_modules/@fortawesome/free-brands-svg-icons/index.mjs"}],"../components/Construccion.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var Construccion = function Construccion() {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h1", null, "CONTRUCtion"));
+};
+var _default = exports.default = Construccion;
+},{}],"../src/Appx.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -48846,15 +48857,19 @@ exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
 var _reactRouterDom = require("react-router-dom");
 var _Consolax = _interopRequireDefault(require("../components/Consolax"));
+var _Construccion = _interopRequireDefault(require("../components/Construccion"));
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }
 var Appx = function Appx() {
   return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.BrowserRouter, null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Routes, null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
     path: "/",
+    element: /*#__PURE__*/_react.default.createElement(_Construccion.default, null)
+  }), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
+    path: "/portfolio",
     element: /*#__PURE__*/_react.default.createElement(_Consolax.default, null)
   }))));
 };
 var _default = exports.default = Appx;
-},{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/dist/index.js","../components/Consolax":"../components/Consolax.js"}],"../src/index.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/dist/index.js","../components/Consolax":"../components/Consolax.js","../components/Construccion":"../components/Construccion.js"}],"../src/index.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -48888,7 +48903,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "45935" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40599" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
