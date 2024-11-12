@@ -10,24 +10,26 @@ const Construction = () => (
     backgroundColor: 'black', // fondo oscuro minimalista
     color: '#ffffff',
     fontFamily: 'Verdana, Geneva, sans-serif',
+    padding: '0 2rem', // Espacio para evitar que el texto se corte en pantallas pequeñas
+    textAlign: 'center',
   }}>
     <h1 style={{
-      fontSize: '4rem',
+      fontSize: 'clamp(2.5rem, 5vw, 4rem)', // Responsivo: cambia entre 2.5rem y 4rem
       color: '#39ff14', // verde neón para el título
       textTransform: 'uppercase',
-      letterSpacing: '10px',
+      letterSpacing: '0.2em', // Ajusta el espaciado de letras
       fontWeight: 'bold',
       marginBottom: '2rem',
-      textShadow: '0 0 10px #39ff14, 0 0 1px #39ff14, 0 0 1px #39ff14',
+      textShadow: '0 0 10px #39ff14, 0 0 20px #39ff14, 0 0 30px #39ff14',
     }}>
       Under Construction
     </h1>
     <p style={{
-      fontSize: '1.2rem',
+      fontSize: 'clamp(1rem, 2.5vw, 1.5rem)', // Responsivo: cambia entre 1rem y 1.5rem
       color: '#ff007f', // rosa neón para la fecha de lanzamiento
       textShadow: '0 0 5px #ff007f, 0 0 10px #ff007f',
       textTransform: 'uppercase',
-      letterSpacing: '2px',
+      letterSpacing: '0.1em',
     }}>
       Coming Soon 2024
     </p>
@@ -35,6 +37,7 @@ const Construction = () => (
 );
 
 export default Construction;
+
 
 
 
