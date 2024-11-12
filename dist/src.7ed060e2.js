@@ -48853,59 +48853,32 @@ var Construction = function Construction() {
       alignItems: 'center',
       justifyContent: 'center',
       height: '100vh',
-      backgroundColor: '#0a0a0a',
-      // un fondo oscuro para el efecto neon
+      backgroundColor: 'black',
+      // fondo oscuro minimalista
       color: '#ffffff',
-      fontFamily: 'Arial, Helvetica, sans-serif',
-      overflow: 'hidden'
+      fontFamily: 'Verdana, Geneva, sans-serif'
     }
   }, /*#__PURE__*/_react.default.createElement("h1", {
     style: {
       fontSize: '4rem',
-      color: '#00ffe7',
-      // un color neón azul claro
+      color: '#39ff14',
+      // verde neón para el título
       textTransform: 'uppercase',
       letterSpacing: '10px',
       fontWeight: 'bold',
-      marginBottom: '0.5rem',
-      textShadow: '0 0 10px #00ffe7, 0 0 20px #00ffe7, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff'
+      marginBottom: '2rem',
+      textShadow: '0 0 10px #39ff14, 0 0 1px #39ff14, 0 0 1px #39ff14'
     }
   }, "Under Construction"), /*#__PURE__*/_react.default.createElement("p", {
     style: {
       fontSize: '1.2rem',
-      color: '#b3f5ff',
-      // un tono azul neón más suave
-      textAlign: 'center',
-      maxWidth: '700px',
-      lineHeight: '1.8',
-      fontStyle: 'italic',
-      textShadow: '0 0 5px #00ffe7, 0 0 10px #ff00ff'
-    }
-  }, "Crafting a unique experience for you. Stay tuned for the future of digital worlds."), /*#__PURE__*/_react.default.createElement("div", {
-    style: {
-      marginTop: '2rem',
-      padding: '1rem 3rem',
-      borderRadius: '30px',
-      fontSize: '1rem',
-      color: '#ff00ff',
-      border: '2px solid #ff00ff',
+      color: '#ff007f',
+      // rosa neón para la fecha de lanzamiento
+      textShadow: '0 0 5px #ff007f, 0 0 10px #ff007f',
       textTransform: 'uppercase',
-      letterSpacing: '2px',
-      cursor: 'pointer',
-      transition: 'all 0.3s ease',
-      textShadow: '0 0 5px #ff00ff, 0 0 10px #ff00ff'
-    },
-    onMouseOver: function onMouseOver(e) {
-      e.currentTarget.style.backgroundColor = '#ff00ff';
-      e.currentTarget.style.color = '#0a0a0a';
-      e.currentTarget.style.textShadow = 'none';
-    },
-    onMouseOut: function onMouseOut(e) {
-      e.currentTarget.style.backgroundColor = 'transparent';
-      e.currentTarget.style.color = '#ff00ff';
-      e.currentTarget.style.textShadow = '0 0 5px #ff00ff, 0 0 10px #ff00ff';
+      letterSpacing: '2px'
     }
-  }, "Notify Me"));
+  }, "Coming Soon 2024"));
 };
 var _default = exports.default = Construction;
 },{"react":"../node_modules/react/index.js"}],"../src/Appx.js":[function(require,module,exports) {
@@ -48964,7 +48937,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43967" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44389" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
