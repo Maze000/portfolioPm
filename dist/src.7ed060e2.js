@@ -48496,23 +48496,16 @@ var App = function App() {
     id: 4,
     img: _p8.default,
     descripcion: 'Proyecto 4'
-  }, {
-    id: 5,
-    img: _p10.default,
-    descripcion: 'Proyecto 5'
-  }, {
+  },
+  //{ id: 5, img: image15p, descripcion: 'Proyecto 5' },
+  {
     id: 6,
     img: _p12.default,
     descripcion: 'Proyecto 6'
-  }, {
-    id: 7,
-    img: _p.default,
-    descripcion: 'Proyecto 7'
-  }, {
-    id: 8,
-    img: _p13.default,
-    descripcion: 'Proyecto 8'
-  }, {
+  },
+  // { id: 7, img: image17pro, descripcion: 'Proyecto 7' },
+  //{ id: 8, img: image18pro, descripcion: 'Proyecto 8' },
+  {
     id: 9,
     img: _p14.default,
     descripcion: 'Proyecto 9'
@@ -48520,19 +48513,15 @@ var App = function App() {
     id: 10,
     img: _p15.default,
     descripcion: 'Proyecto 10'
-  }, {
-    id: 11,
-    img: _p16.default,
-    descripcion: 'Proyecto 11'
-  }, {
+  },
+  //{ id: 11, img: image21pro, descripcion: 'Proyecto 11' },
+  {
     id: 12,
     img: _p17.default,
     descripcion: 'Proyecto 12'
-  }, {
-    id: 13,
-    img: _p18.default,
-    descripcion: 'Proyecto 13'
-  }, {
+  },
+  // { id: 13, img: image23pro, descripcion: 'Proyecto 13' },
+  {
     id: 14,
     img: _p19.default,
     descripcion: 'Proyecto 14'
@@ -48544,27 +48533,17 @@ var App = function App() {
     id: 16,
     img: _p21.default,
     descripcion: 'Proyecto 16'
-  }, {
-    id: 17,
-    img: _p22.default,
-    descripcion: 'Proyecto 17'
-  }, {
-    id: 18,
-    img: _p23.default,
-    descripcion: 'Proyecto 18'
-  }, {
-    id: 19,
-    img: _p24.default,
-    descripcion: 'Proyecto 19'
-  }, {
+  },
+  //{ id: 17, img: image27pro, descripcion: 'Proyecto 17' },
+  //{ id: 18, img: image28pro, descripcion: 'Proyecto 18' },
+  //{ id: 19, img: image29pro, descripcion: 'Proyecto 19' },
+  {
     id: 20,
     img: _p25.default,
     descripcion: 'Proyecto 20'
-  }, {
-    id: 21,
-    img: _p26.default,
-    descripcion: 'Proyecto 21'
-  }, {
+  },
+  //{ id: 21, img: image31pro, descripcion: 'Proyecto 21' },
+  {
     id: 21,
     img: _p27.default,
     descripcion: 'Proyecto 22'
@@ -48572,11 +48551,9 @@ var App = function App() {
     id: 21,
     img: _p28.default,
     descripcion: 'Proyecto 23'
-  }, {
-    id: 21,
-    img: _p29.default,
-    descripcion: 'Proyecto 24'
-  }, {
+  },
+  //{ id: 21, img: image34pro, descripcion: 'Proyecto 24' },
+  {
     id: 21,
     img: _p30.default,
     descripcion: 'Proyecto 25'
@@ -48854,29 +48831,34 @@ var Construction = function Construction() {
       justifyContent: 'center',
       height: '100vh',
       backgroundColor: 'black',
-      // fondo oscuro minimalista
       color: '#ffffff',
-      fontFamily: 'Verdana, Geneva, sans-serif'
+      fontFamily: 'Verdana, Geneva, sans-serif',
+      padding: '0 5vw',
+      textAlign: 'center'
     }
   }, /*#__PURE__*/_react.default.createElement("h1", {
     style: {
-      fontSize: '4rem',
+      fontSize: '3vw',
+      // Cambia el tamaño en función del ancho de la pantalla
+      minWidth: '240px',
+      maxWidth: '80vw',
       color: '#39ff14',
-      // verde neón para el título
       textTransform: 'uppercase',
-      letterSpacing: '10px',
+      letterSpacing: '0.2em',
       fontWeight: 'bold',
-      marginBottom: '2rem',
-      textShadow: '0 0 10px #39ff14, 0 0 1px #39ff14, 0 0 1px #39ff14'
+      marginBottom: '1rem',
+      textShadow: '0 0 10px #39ff14, 0 0 20px #39ff14, 0 0 30px #39ff14'
     }
   }, "Under Construction"), /*#__PURE__*/_react.default.createElement("p", {
     style: {
-      fontSize: '1.2rem',
+      fontSize: '2vw',
+      // Cambia el tamaño en función del ancho de la pantalla
+      minWidth: '150px',
+      maxWidth: '70vw',
       color: '#ff007f',
-      // rosa neón para la fecha de lanzamiento
       textShadow: '0 0 5px #ff007f, 0 0 10px #ff007f',
       textTransform: 'uppercase',
-      letterSpacing: '2px'
+      letterSpacing: '0.1em'
     }
   }, "Coming Soon 2024"));
 };
@@ -48937,7 +48919,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44389" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "35263" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
