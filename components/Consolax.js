@@ -84,33 +84,33 @@ const App = () => {
 
   // Array de proyectos (puedes agregar más proyectos o generarlos dinámicamente)
   const proyectos = [
-    { id: 1, img: image11p, descripcion: 'Proyecto 1' ,link: 'https://ecommercemern-production.up.railway.app/form-1' },
-    { id: 2, img: image12p, descripcion: 'Proyecto 2', link: 'https://ecommercemern-production.up.railway.app/form-1' },
-    { id: 3, img: image13p, descripcion: 'Proyecto 3' , link: 'https://ecommercemern-production.up.railway.app/form-1' },
-    { id: 4, img: image14p, descripcion: 'Proyecto 4', link: 'https://ecommercemern-production.up.railway.app/form-1'  },
+    { id: 1, img: image11p, descripcion: 'Proyecto 1' ,link: 'https://ecommercemern-production.up.railway.app/form-1',elementos: ['algo', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A'] },
+    { id: 2, img: image12p, descripcion: 'Proyecto 2', link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']},
+    { id: 3, img: image13p, descripcion: 'Proyecto 3' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']},
+    { id: 4, img: image14p, descripcion: 'Proyecto 4', link: 'https://ecommercemern-production.up.railway.app/form-1'  ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']},
     //{ id: 5, img: image15p, descripcion: 'Proyecto 5' },
-    { id: 6, img: image16p, descripcion: 'Proyecto 6' , link: 'https://ecommercemern-production.up.railway.app/form-1' },
+    { id: 6, img: image16p, descripcion: 'Proyecto 6' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']},
    // { id: 7, img: image17pro, descripcion: 'Proyecto 7' },
     //{ id: 8, img: image18pro, descripcion: 'Proyecto 8' },
-    { id: 9, img: image19pro, descripcion: 'Proyecto 9' , link: 'https://ecommercemern-production.up.railway.app/form-1' },
-    { id: 10, img: image20pro, descripcion: 'Proyecto 10' , link: 'https://ecommercemern-production.up.railway.app/form-1' },
+    { id: 9, img: image19pro, descripcion: 'Proyecto 9' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']},
+    { id: 10, img: image20pro, descripcion: 'Proyecto 10' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']},
     //{ id: 11, img: image21pro, descripcion: 'Proyecto 11' },
-    { id: 12, img: image22pro, descripcion: 'Proyecto 12' , link: 'https://ecommercemern-production.up.railway.app/form-1' },
+    { id: 12, img: image22pro, descripcion: 'Proyecto 12' , link: 'https://ecommercemern-production.up.railway.app/form-1',elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A'] },
    // { id: 13, img: image23pro, descripcion: 'Proyecto 13' },
-    { id: 14, img: image24pro, descripcion: 'Proyecto 14' , link: 'https://ecommercemern-production.up.railway.app/form-1' },
-    { id: 15, img: image25pro, descripcion: 'Proyecto 15' , link: 'https://ecommercemern-production.up.railway.app/form-1' },
-    { id: 16, img: image26pro, descripcion: 'Proyecto 16' , link: 'https://ecommercemern-production.up.railway.app/form-1' },
+    { id: 14, img: image24pro, descripcion: 'Proyecto 14' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']},
+    { id: 15, img: image25pro, descripcion: 'Proyecto 15' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']},
+    { id: 16, img: image26pro, descripcion: 'Proyecto 16' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']},
     //{ id: 17, img: image27pro, descripcion: 'Proyecto 17' },
     //{ id: 18, img: image28pro, descripcion: 'Proyecto 18' },
     //{ id: 19, img: image29pro, descripcion: 'Proyecto 19' },
-    { id: 20, img: image30pro, descripcion: 'Proyecto 20' , link: 'https://ecommercemern-production.up.railway.app/form-1' },
+    { id: 20, img: image30pro, descripcion: 'Proyecto 20' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']},
     //{ id: 21, img: image31pro, descripcion: 'Proyecto 21' },
-    { id: 21, img: image32pro, descripcion: 'Proyecto 22' , link: 'https://ecommercemern-production.up.railway.app/form-1' },
-    { id: 21, img: image33pro, descripcion: 'Proyecto 23' , link: 'https://ecommercemern-production.up.railway.app/form-1' },
+    { id: 21, img: image32pro, descripcion: 'Proyecto 22' , link: 'https://ecommercemern-production.up.railway.app/form-1',elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A'] },
+    { id: 21, img: image33pro, descripcion: 'Proyecto 23' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']},
     //{ id: 21, img: image34pro, descripcion: 'Proyecto 24' },
-    { id: 21, img: image35pro, descripcion: 'Proyecto 25', link: 'https://ecommercemern-production.up.railway.app/form-1'  },
-    { id: 21, img: image36pro, descripcion: 'Proyecto 26' , link: 'https://ecommercemern-production.up.railway.app/form-1' },
-    { id: 21, img: image37pro, descripcion: 'Proyecto 27' , link: 'https://ecommercemern-production.up.railway.app/form-1' }
+    { id: 21, img: image35pro, descripcion: 'Proyecto 25', link: 'https://ecommercemern-production.up.railway.app/form-1'  ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']},
+    { id: 21, img: image36pro, descripcion: 'Proyecto 26' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']},
+    { id: 21, img: image37pro, descripcion: 'Proyecto 27' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']}
   ];
 
   return (
@@ -245,14 +245,10 @@ const App = () => {
                 </a>
                 <p className='tittle-proyect'>{proyecto.descripcion}</p>
                 <ul className="vertical-list">
-                  <li>Elemento 1</li>
-                  <li>Elemento 2</li>
-                  <li>Elemento 3</li>
-                  <li>Elemento 4</li>
-                  <li>Elemento 5</li>
-                  <li>Elemento 6</li>
-                  <li>Elemento 7</li>
-                </ul>
+          {proyecto.elementos.map((elemento, index) => (
+            <li key={index}>{elemento}</li>
+          ))}
+        </ul>
                 <button className="elegant-button" onClick={() => window.open('https://github.com/Maze000/storeGitM1', '_blank')}>Github</button>
               </div>
             </div>
