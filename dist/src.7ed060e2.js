@@ -48485,7 +48485,7 @@ var App = function App() {
     img: _p2.default,
     descripcion: 'Proyecto 1',
     link: 'https://ecommercemern-production.up.railway.app/form-1',
-    elementos: ['algo', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A',, 'Elemento 3A', 'Elemento 4A']
+    elementos: ['React', 'Express', 'MongoDB', 'Node.js',, 'Stripe', 'JSON Web Token (JWT)']
   }, {
     id: 2,
     img: _p4.default,
@@ -48957,7 +48957,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40747" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43087" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

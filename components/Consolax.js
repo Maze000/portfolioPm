@@ -84,7 +84,7 @@ const App = () => {
 
   // Array de proyectos (puedes agregar más proyectos o generarlos dinámicamente)
   const proyectos = [
-    { id: 1, img: image11p, descripcion: 'Proyecto 1' ,link: 'https://ecommercemern-production.up.railway.app/form-1',elementos: ['algo', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A',, 'Elemento 3A', 'Elemento 4A'] },
+    { id: 1, img: image11p, descripcion: 'Proyecto 1' ,link: 'https://ecommercemern-production.up.railway.app/form-1',elementos: ['React', 'Express', 'MongoDB', 'Node.js',, 'Stripe', 'JSON Web Token (JWT)'] },
     { id: 2, img: image12p, descripcion: 'Proyecto 2', link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A','Elemento 3A', 'Elemento 4A']},
     { id: 3, img: image13p, descripcion: 'Proyecto 3' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']},
     { id: 4, img: image14p, descripcion: 'Proyecto 4', link: 'https://ecommercemern-production.up.railway.app/form-1'  ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']},
