@@ -328,10 +328,13 @@ h4 {
 }
 
 .vertical-list {
-  padding: 30px;
+  padding: 40px;
   list-style-type: square;            
   margin: 0;  
-  text-align: center;           
+  /* border-top: 5px solid rgb(255, 123, 0);*
+  /*border: 1px solid red;*/   
+  /*box-shadow: 0 2px 4px rgb(133, 133, 133);*/
+  /*background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(196, 196, 196));   */  
 }
 
 .vertical-list li {

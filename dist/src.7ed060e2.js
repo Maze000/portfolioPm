@@ -48485,33 +48485,38 @@ var App = function App() {
     img: _p2.default,
     descripcion: 'Proyecto 1',
     link: 'https://ecommercemern-production.up.railway.app/form-1',
+    gitlink: 'https://github.com/Maze000/ecommerceMern',
     elementos: ['React', 'Express', 'MongoDB', 'Node.js',, 'Stripe', 'JSON Web Token (JWT)']
   }, {
     id: 2,
     img: _p4.default,
     descripcion: 'Proyecto 2',
     link: 'https://ecommercemern-production.up.railway.app/form-1',
-    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']
+    gitlink: 'https://github.com/Maze000/solidityBlockChain',
+    elementos: ['Solidity', 'Ethereum', 'Smart Contracts', 'Web3.js', 'Node.js', 'Hardhat']
   }, {
     id: 3,
     img: _p6.default,
     descripcion: 'Proyecto 3',
-    link: 'https://ecommercemern-production.up.railway.app/form-1',
-    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']
+    link: 'https://drive.google.com/file/d/1eR7bxubBCj2yLHpiYvsW-tFKk4Pqr1LU/view?usp=drive_link',
+    gitlink: 'https://github.com/Maze000/ecommerceMern',
+    elementos: ['OpenCV', 'Adobe AIR', 'Adobe Flash', 'Kinect SDK', 'ActionScript', 'C++']
   }, {
     id: 4,
     img: _p8.default,
     descripcion: 'Proyecto 4',
-    link: 'https://ecommercemern-production.up.railway.app/form-1',
-    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']
+    link: 'https://nextportfolio-production.up.railway.app/',
+    gitlink: 'https://github.com/Maze000/nextPortfolio2',
+    elementos: ['Next.js', 'React', 'Animate.css', 'Bootswatch', 'Classnames', 'NProgress']
   },
   //{ id: 5, img: image15p, descripcion: 'Proyecto 5' },
   {
     id: 6,
     img: _p12.default,
     descripcion: 'Proyecto 6',
-    link: 'https://ecommercemern-production.up.railway.app/form-1',
-    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']
+    link: 'https://reacttsapp-production.up.railway.app/',
+    gitlink: 'https://github.com/Maze000/reactTsApp',
+    elementos: ['React', 'React DOM', 'React Router DOM', 'CSS']
   },
   // { id: 7, img: image17pro, descripcion: 'Proyecto 7' },
   //{ id: 8, img: image18pro, descripcion: 'Proyecto 8' },
@@ -48519,42 +48524,43 @@ var App = function App() {
     id: 9,
     img: _p14.default,
     descripcion: 'Proyecto 9',
-    link: 'https://ecommercemern-production.up.railway.app/form-1',
-    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']
+    link: 'https://reacttsapp-production.up.railway.app/',
+    gitlink: 'https://github.com/Maze000/reactTsApp',
+    elementos: ['React', 'React DOM', 'TypeScript', 'React Scripts', 'BootsWatch', 'React Icons']
   }, {
     id: 10,
     img: _p15.default,
     descripcion: 'Proyecto 10',
-    link: 'https://ecommercemern-production.up.railway.app/form-1',
-    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']
+    link: 'https://reactcoingeckoapp-production.up.railway.app/',
+    gitlink: 'https://github.com/Maze000/reactCoinGeckoApp',
+    elementos: ['React', 'React DOM', 'Axios', 'Bootstrap', 'React Scripts', 'Coingecko API']
   },
   //{ id: 11, img: image21pro, descripcion: 'Proyecto 11' },
   {
     id: 12,
     img: _p17.default,
     descripcion: 'Proyecto 12',
-    link: 'https://ecommercemern-production.up.railway.app/form-1',
-    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']
+    link: 'https://flaskreactappcrud-production.up.railway.app/',
+    gitlink: 'https://github.com/Maze000/flaskReactAppCrud',
+    elementos: ['Flask', 'React', 'MongoDB', 'Axios', 'Bootstrap', 'Flask-CORS']
   },
   // { id: 13, img: image23pro, descripcion: 'Proyecto 13' },
   {
     id: 14,
     img: _p19.default,
     descripcion: 'Proyecto 14',
-    link: 'https://ecommercemern-production.up.railway.app/form-1',
-    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']
-  }, {
-    id: 15,
-    img: _p20.default,
-    descripcion: 'Proyecto 15',
-    link: 'https://ecommercemern-production.up.railway.app/form-1',
-    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']
-  }, {
+    link: 'https://nodepushnotification-production.up.railway.app/',
+    gitlink: 'https://github.com/Maze000/nodePushNotification',
+    elementos: ['Node.js', 'Express', 'Web Push', 'Dotenv', 'Morgan', 'Nodemon']
+  },
+  //{ id: 15, img: image25pro, descripcion: 'Proyecto 15' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']},
+  {
     id: 16,
     img: _p21.default,
     descripcion: 'Proyecto 16',
-    link: 'https://ecommercemern-production.up.railway.app/form-1',
-    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']
+    link: 'https://jsquiz-production.up.railway.app/',
+    gitlink: 'https://github.com/Maze000/jsQuiz',
+    elementos: ['HTML', 'JS', 'CSS']
   },
   //{ id: 17, img: image27pro, descripcion: 'Proyecto 17' },
   //{ id: 18, img: image28pro, descripcion: 'Proyecto 18' },
@@ -48564,41 +48570,47 @@ var App = function App() {
     img: _p25.default,
     descripcion: 'Proyecto 20',
     link: 'https://ecommercemern-production.up.railway.app/form-1',
-    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']
+    gitlink: 'https://github.com/Maze000/movieAPiRest',
+    elementos: ['React', 'React DOM', 'Webpack', 'Babel', 'Bootswatch', 'OMDb API']
   },
   //{ id: 21, img: image31pro, descripcion: 'Proyecto 21' },
   {
     id: 21,
     img: _p27.default,
     descripcion: 'Proyecto 22',
-    link: 'https://ecommercemern-production.up.railway.app/form-1',
-    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']
+    link: 'https://mernuservalidatorcrud-production.up.railway.app/login',
+    gitlink: 'https://github.com/Maze000/mernUserValidatorCrud',
+    elementos: ['React', 'Express', 'Mongoose', 'JSON Web Token (JWT)', 'Webpack', 'Jest']
   }, {
     id: 21,
     img: _p28.default,
     descripcion: 'Proyecto 23',
     link: 'https://ecommercemern-production.up.railway.app/form-1',
-    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']
+    gitlink: 'https://github.com/Maze000/ecommerceMern',
+    elementos: ['React', 'React DOM', 'React Router DOM', 'Stripe API', 'Fetch', 'Webpack']
   },
   //{ id: 21, img: image34pro, descripcion: 'Proyecto 24' },
   {
     id: 21,
     img: _p30.default,
     descripcion: 'Proyecto 25',
-    link: 'https://ecommercemern-production.up.railway.app/form-1',
-    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']
+    link: 'https://patriciomolinae.com/',
+    gitlink: 'https://github.com/Maze000/portfolioPm',
+    elementos: ['React', 'React DOM', 'React Router DOM', 'React Scroll', 'Express', 'Nodemailer']
   }, {
     id: 21,
     img: _p31.default,
     descripcion: 'Proyecto 26',
     link: 'https://ecommercemern-production.up.railway.app/form-1',
-    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']
+    gitlink: 'https://github.com/Maze000/chatGptApi',
+    elementos: ['React', 'React DOM', 'OpenAI API', 'Fetch API', 'CSS']
   }, {
     id: 21,
     img: _p32.default,
     descripcion: 'Proyecto 27',
     link: 'https://ecommercemern-production.up.railway.app/form-1',
-    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']
+    gitlink: 'https://github.com/Maze000/dallEApi',
+    elementos: ['React', 'React DOM', 'OpenAI API', 'Fetch API', 'CSS']
   }];
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "App"
@@ -48783,7 +48795,7 @@ var App = function App() {
       className: "proyect-box",
       key: proyecto.id
     }, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("a", {
-      href: "https://ecommercemern-production.up.railway.app/form-1",
+      href: proyecto.link,
       target: "_blank",
       className: "project"
     }, /*#__PURE__*/_react.default.createElement("img", {
@@ -48796,11 +48808,11 @@ var App = function App() {
     }, proyecto.elementos.map(function (elemento, index) {
       return /*#__PURE__*/_react.default.createElement("li", {
         key: index
-      }, elemento);
+      }, /*#__PURE__*/_react.default.createElement("strong", null, elemento));
     })), /*#__PURE__*/_react.default.createElement("button", {
       className: "elegant-button",
       onClick: function onClick() {
-        return window.open('https://github.com/Maze000/storeGitM1', '_blank');
+        return window.open(proyecto.gitlink, '_blank');
       }
     }, "Github")));
   })), proyectosVisibles < proyectos.length && /*#__PURE__*/_react.default.createElement("button", {
@@ -48957,7 +48969,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39797" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40845" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

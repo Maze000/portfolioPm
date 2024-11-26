@@ -84,33 +84,33 @@ const App = () => {
 
   // Array de proyectos (puedes agregar más proyectos o generarlos dinámicamente)
   const proyectos = [
-    { id: 1, img: image11p, descripcion: 'Proyecto 1' ,link: 'https://ecommercemern-production.up.railway.app/form-1',elementos: ['React', 'Express', 'MongoDB', 'Node.js',, 'Stripe', 'JSON Web Token (JWT)'] },
-    { id: 2, img: image12p, descripcion: 'Proyecto 2', link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A','Elemento 3A', 'Elemento 4A']},
-    { id: 3, img: image13p, descripcion: 'Proyecto 3' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']},
-    { id: 4, img: image14p, descripcion: 'Proyecto 4', link: 'https://ecommercemern-production.up.railway.app/form-1'  ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']},
+    { id: 1, img: image11p, descripcion: 'Proyecto 1' ,link: 'https://ecommercemern-production.up.railway.app/form-1',gitlink: 'https://github.com/Maze000/ecommerceMern',elementos: ['React', 'Express', 'MongoDB', 'Node.js',, 'Stripe', 'JSON Web Token (JWT)'] },
+    { id: 2, img: image12p, descripcion: 'Proyecto 2', link: 'https://ecommercemern-production.up.railway.app/form-1' ,gitlink: 'https://github.com/Maze000/solidityBlockChain',elementos: ['Solidity', 'Ethereum', 'Smart Contracts', 'Web3.js','Node.js', 'Hardhat']},
+    { id: 3, img: image13p, descripcion: 'Proyecto 3' , link: 'https://drive.google.com/file/d/1eR7bxubBCj2yLHpiYvsW-tFKk4Pqr1LU/view?usp=drive_link' ,gitlink: 'https://github.com/Maze000/ecommerceMern',elementos: ['OpenCV', 'Adobe AIR', 'Adobe Flash', 'Kinect SDK', 'ActionScript', 'C++']},
+    { id: 4, img: image14p, descripcion: 'Proyecto 4', link: 'https://nextportfolio-production.up.railway.app/'  ,gitlink: 'https://github.com/Maze000/nextPortfolio2',elementos: ['Next.js', 'React', 'Animate.css', 'Bootswatch', 'Classnames', 'NProgress']},
     //{ id: 5, img: image15p, descripcion: 'Proyecto 5' },
-    { id: 6, img: image16p, descripcion: 'Proyecto 6' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']},
+    { id: 6, img: image16p, descripcion: 'Proyecto 6' , link: 'https://reacttsapp-production.up.railway.app/' ,gitlink: 'https://github.com/Maze000/reactTsApp',elementos: ['React', 'React DOM', 'React Router DOM', 'CSS']},
    // { id: 7, img: image17pro, descripcion: 'Proyecto 7' },
     //{ id: 8, img: image18pro, descripcion: 'Proyecto 8' },
-    { id: 9, img: image19pro, descripcion: 'Proyecto 9' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']},
-    { id: 10, img: image20pro, descripcion: 'Proyecto 10' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']},
+    { id: 9, img: image19pro, descripcion: 'Proyecto 9' , link: 'https://reacttsapp-production.up.railway.app/' ,gitlink: 'https://github.com/Maze000/reactTsApp',elementos: ['React', 'React DOM', 'TypeScript', 'React Scripts', 'BootsWatch','React Icons']},
+    { id: 10, img: image20pro, descripcion: 'Proyecto 10' , link: 'https://reactcoingeckoapp-production.up.railway.app/' ,gitlink: 'https://github.com/Maze000/reactCoinGeckoApp',elementos: ['React', 'React DOM', 'Axios', 'Bootstrap', 'React Scripts', 'Coingecko API']},
     //{ id: 11, img: image21pro, descripcion: 'Proyecto 11' },
-    { id: 12, img: image22pro, descripcion: 'Proyecto 12' , link: 'https://ecommercemern-production.up.railway.app/form-1',elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A'] },
+    { id: 12, img: image22pro, descripcion: 'Proyecto 12' , link: 'https://flaskreactappcrud-production.up.railway.app/',gitlink: 'https://github.com/Maze000/flaskReactAppCrud',elementos: ['Flask', 'React', 'MongoDB', 'Axios', 'Bootstrap', 'Flask-CORS'] },
    // { id: 13, img: image23pro, descripcion: 'Proyecto 13' },
-    { id: 14, img: image24pro, descripcion: 'Proyecto 14' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']},
-    { id: 15, img: image25pro, descripcion: 'Proyecto 15' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']},
-    { id: 16, img: image26pro, descripcion: 'Proyecto 16' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']},
+    { id: 14, img: image24pro, descripcion: 'Proyecto 14' , link: 'https://nodepushnotification-production.up.railway.app/' ,gitlink: 'https://github.com/Maze000/nodePushNotification',elementos: ['Node.js', 'Express', 'Web Push', 'Dotenv', 'Morgan', 'Nodemon']},
+    //{ id: 15, img: image25pro, descripcion: 'Proyecto 15' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']},
+    { id: 16, img: image26pro, descripcion: 'Proyecto 16' , link: 'https://jsquiz-production.up.railway.app/' ,gitlink: 'https://github.com/Maze000/jsQuiz',elementos: ['HTML', 'JS', 'CSS']},
     //{ id: 17, img: image27pro, descripcion: 'Proyecto 17' },
     //{ id: 18, img: image28pro, descripcion: 'Proyecto 18' },
     //{ id: 19, img: image29pro, descripcion: 'Proyecto 19' },
-    { id: 20, img: image30pro, descripcion: 'Proyecto 20' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']},
+    { id: 20, img: image30pro, descripcion: 'Proyecto 20' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,gitlink: 'https://github.com/Maze000/movieAPiRest',elementos: ['React', 'React DOM', 'Webpack', 'Babel', 'Bootswatch', 'OMDb API']},
     //{ id: 21, img: image31pro, descripcion: 'Proyecto 21' },
-    { id: 21, img: image32pro, descripcion: 'Proyecto 22' , link: 'https://ecommercemern-production.up.railway.app/form-1',elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A'] },
-    { id: 21, img: image33pro, descripcion: 'Proyecto 23' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']},
+    { id: 21, img: image32pro, descripcion: 'Proyecto 22' , link: 'https://mernuservalidatorcrud-production.up.railway.app/login',gitlink: 'https://github.com/Maze000/mernUserValidatorCrud',elementos: ['React', 'Express', 'Mongoose', 'JSON Web Token (JWT)', 'Webpack', 'Jest'] },
+    { id: 21, img: image33pro, descripcion: 'Proyecto 23' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,gitlink: 'https://github.com/Maze000/ecommerceMern',elementos: ['React', 'React DOM', 'React Router DOM', 'Stripe API', 'Fetch', 'Webpack']},
     //{ id: 21, img: image34pro, descripcion: 'Proyecto 24' },
-    { id: 21, img: image35pro, descripcion: 'Proyecto 25', link: 'https://ecommercemern-production.up.railway.app/form-1'  ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']},
-    { id: 21, img: image36pro, descripcion: 'Proyecto 26' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']},
-    { id: 21, img: image37pro, descripcion: 'Proyecto 27' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']}
+    { id: 21, img: image35pro, descripcion: 'Proyecto 25', link: 'https://patriciomolinae.com/'  ,gitlink: 'https://github.com/Maze000/portfolioPm',elementos: ['React', 'React DOM', 'React Router DOM', 'React Scroll', 'Express', 'Nodemailer']},
+    { id: 21, img: image36pro, descripcion: 'Proyecto 26' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,gitlink: 'https://github.com/Maze000/chatGptApi',elementos: ['React', 'React DOM', 'OpenAI API', 'Fetch API', 'CSS']},
+    { id: 21, img: image37pro, descripcion: 'Proyecto 27' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,gitlink: 'https://github.com/Maze000/dallEApi',elementos: ['React', 'React DOM', 'OpenAI API', 'Fetch API', 'CSS']}
   ];
 
   return (
@@ -240,16 +240,16 @@ const App = () => {
           {proyectos.slice(0, proyectosVisibles).map((proyecto) => (
             <div className="proyect-box" key={proyecto.id}>
               <div>
-                <a href="https://ecommercemern-production.up.railway.app/form-1" target="_blank" className="project">
+                <a href={proyecto.link} target="_blank" className="project">
                   <img src={proyecto.img} alt={proyecto.descripcion} />
                 </a>
                 <p className='tittle-proyect'>{proyecto.descripcion}</p>
                 <ul className="vertical-list">
           {proyecto.elementos.map((elemento, index) => (
-            <li key={index}>{elemento}</li>
+            <li key={index}><strong>{elemento}</strong></li>
           ))}
         </ul>
-                <button className="elegant-button" onClick={() => window.open('https://github.com/Maze000/storeGitM1', '_blank')}>Github</button>
+                <button className="elegant-button" onClick={() => window.open(proyecto.gitlink, '_blank')}>Github</button>
               </div>
             </div>
           ))}
