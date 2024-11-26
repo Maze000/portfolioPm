@@ -48484,29 +48484,34 @@ var App = function App() {
     id: 1,
     img: _p2.default,
     descripcion: 'Proyecto 1',
-    link: 'https://ecommercemern-production.up.railway.app/form-1'
+    link: 'https://ecommercemern-production.up.railway.app/form-1',
+    elementos: ['algo', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']
   }, {
     id: 2,
     img: _p4.default,
     descripcion: 'Proyecto 2',
-    link: 'https://ecommercemern-production.up.railway.app/form-1'
+    link: 'https://ecommercemern-production.up.railway.app/form-1',
+    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']
   }, {
     id: 3,
     img: _p6.default,
     descripcion: 'Proyecto 3',
-    link: 'https://ecommercemern-production.up.railway.app/form-1'
+    link: 'https://ecommercemern-production.up.railway.app/form-1',
+    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']
   }, {
     id: 4,
     img: _p8.default,
     descripcion: 'Proyecto 4',
-    link: 'https://ecommercemern-production.up.railway.app/form-1'
+    link: 'https://ecommercemern-production.up.railway.app/form-1',
+    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']
   },
   //{ id: 5, img: image15p, descripcion: 'Proyecto 5' },
   {
     id: 6,
     img: _p12.default,
     descripcion: 'Proyecto 6',
-    link: 'https://ecommercemern-production.up.railway.app/form-1'
+    link: 'https://ecommercemern-production.up.railway.app/form-1',
+    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']
   },
   // { id: 7, img: image17pro, descripcion: 'Proyecto 7' },
   //{ id: 8, img: image18pro, descripcion: 'Proyecto 8' },
@@ -48514,36 +48519,42 @@ var App = function App() {
     id: 9,
     img: _p14.default,
     descripcion: 'Proyecto 9',
-    link: 'https://ecommercemern-production.up.railway.app/form-1'
+    link: 'https://ecommercemern-production.up.railway.app/form-1',
+    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']
   }, {
     id: 10,
     img: _p15.default,
     descripcion: 'Proyecto 10',
-    link: 'https://ecommercemern-production.up.railway.app/form-1'
+    link: 'https://ecommercemern-production.up.railway.app/form-1',
+    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']
   },
   //{ id: 11, img: image21pro, descripcion: 'Proyecto 11' },
   {
     id: 12,
     img: _p17.default,
     descripcion: 'Proyecto 12',
-    link: 'https://ecommercemern-production.up.railway.app/form-1'
+    link: 'https://ecommercemern-production.up.railway.app/form-1',
+    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']
   },
   // { id: 13, img: image23pro, descripcion: 'Proyecto 13' },
   {
     id: 14,
     img: _p19.default,
     descripcion: 'Proyecto 14',
-    link: 'https://ecommercemern-production.up.railway.app/form-1'
+    link: 'https://ecommercemern-production.up.railway.app/form-1',
+    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']
   }, {
     id: 15,
     img: _p20.default,
     descripcion: 'Proyecto 15',
-    link: 'https://ecommercemern-production.up.railway.app/form-1'
+    link: 'https://ecommercemern-production.up.railway.app/form-1',
+    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']
   }, {
     id: 16,
     img: _p21.default,
     descripcion: 'Proyecto 16',
-    link: 'https://ecommercemern-production.up.railway.app/form-1'
+    link: 'https://ecommercemern-production.up.railway.app/form-1',
+    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']
   },
   //{ id: 17, img: image27pro, descripcion: 'Proyecto 17' },
   //{ id: 18, img: image28pro, descripcion: 'Proyecto 18' },
@@ -48552,36 +48563,42 @@ var App = function App() {
     id: 20,
     img: _p25.default,
     descripcion: 'Proyecto 20',
-    link: 'https://ecommercemern-production.up.railway.app/form-1'
+    link: 'https://ecommercemern-production.up.railway.app/form-1',
+    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']
   },
   //{ id: 21, img: image31pro, descripcion: 'Proyecto 21' },
   {
     id: 21,
     img: _p27.default,
     descripcion: 'Proyecto 22',
-    link: 'https://ecommercemern-production.up.railway.app/form-1'
+    link: 'https://ecommercemern-production.up.railway.app/form-1',
+    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']
   }, {
     id: 21,
     img: _p28.default,
     descripcion: 'Proyecto 23',
-    link: 'https://ecommercemern-production.up.railway.app/form-1'
+    link: 'https://ecommercemern-production.up.railway.app/form-1',
+    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']
   },
   //{ id: 21, img: image34pro, descripcion: 'Proyecto 24' },
   {
     id: 21,
     img: _p30.default,
     descripcion: 'Proyecto 25',
-    link: 'https://ecommercemern-production.up.railway.app/form-1'
+    link: 'https://ecommercemern-production.up.railway.app/form-1',
+    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']
   }, {
     id: 21,
     img: _p31.default,
     descripcion: 'Proyecto 26',
-    link: 'https://ecommercemern-production.up.railway.app/form-1'
+    link: 'https://ecommercemern-production.up.railway.app/form-1',
+    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']
   }, {
     id: 21,
     img: _p32.default,
     descripcion: 'Proyecto 27',
-    link: 'https://ecommercemern-production.up.railway.app/form-1'
+    link: 'https://ecommercemern-production.up.railway.app/form-1',
+    elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A']
   }];
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "App"
@@ -48776,7 +48793,11 @@ var App = function App() {
       className: "tittle-proyect"
     }, proyecto.descripcion), /*#__PURE__*/_react.default.createElement("ul", {
       className: "vertical-list"
-    }, /*#__PURE__*/_react.default.createElement("li", null, "Elemento 1"), /*#__PURE__*/_react.default.createElement("li", null, "Elemento 2"), /*#__PURE__*/_react.default.createElement("li", null, "Elemento 3"), /*#__PURE__*/_react.default.createElement("li", null, "Elemento 4"), /*#__PURE__*/_react.default.createElement("li", null, "Elemento 5"), /*#__PURE__*/_react.default.createElement("li", null, "Elemento 6"), /*#__PURE__*/_react.default.createElement("li", null, "Elemento 7")), /*#__PURE__*/_react.default.createElement("button", {
+    }, proyecto.elementos.map(function (elemento, index) {
+      return /*#__PURE__*/_react.default.createElement("li", {
+        key: index
+      }, elemento);
+    })), /*#__PURE__*/_react.default.createElement("button", {
       className: "elegant-button",
       onClick: function onClick() {
         return window.open('https://github.com/Maze000/storeGitM1', '_blank');
@@ -48936,7 +48957,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37097" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "35547" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
