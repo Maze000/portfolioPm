@@ -627,6 +627,7 @@ align-items: center;
   background: url('../dist/img/proj1.png') no-repeat center ;
   background-size: 550px 550px;
   box-shadow: 0px 12px 15px 5px rgba(0, 0, 0, 0.336);
+  background-color: #ebebeb;
 }
 .project img {
   
@@ -787,7 +788,7 @@ align-items: center;
   }
   .proyect-box{
     
-    background-size: 550px 450px;
+    background-size: 550px 475px;
     
   }
   
