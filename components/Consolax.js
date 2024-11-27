@@ -274,7 +274,7 @@ const App = () => {
       </Element>
 
       <div className="App">
-        <footer className='footer1' onClick={scrollToTop}>^</footer>
+        {/*<footer className='footer1' onClick={scrollToTop}>^</footer>*/}
 
         <footer className="footer2">
           <div>

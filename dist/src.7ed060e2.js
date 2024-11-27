@@ -48826,9 +48826,6 @@ var App = function App() {
   }, /*#__PURE__*/_react.default.createElement("h2", null, "CONTACT")), /*#__PURE__*/_react.default.createElement(_Contact.default, null)), /*#__PURE__*/_react.default.createElement("div", {
     className: "App"
   }, /*#__PURE__*/_react.default.createElement("footer", {
-    className: "footer1",
-    onClick: scrollToTop
-  }, "^"), /*#__PURE__*/_react.default.createElement("footer", {
     className: "footer2"
   }, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("div", {
     className: "socialMedia"
@@ -48969,7 +48966,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44511" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "46665" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
