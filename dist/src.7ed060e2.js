@@ -48483,14 +48483,14 @@ var App = function App() {
   var proyectos = [{
     id: 1,
     img: _p2.default,
-    descripcion: 'This application works as an electronic commerce store, the tools used were the following:',
+    descripcion: 'Electronic commerce store, the tools used were the following:',
     link: 'https://ecommercemern-production.up.railway.app/form-1',
     gitlink: 'https://github.com/Maze000/ecommerceMern',
     elementos: ['React', 'Express', 'MongoDB', 'Node.js',, 'Stripe', 'JSON Web Token (JWT)']
   }, {
     id: 2,
     img: _p4.default,
-    descripcion: 'Crud api rest developed on the Estherium blockchain network, the tools used were the following:',
+    descripcion: 'Crud api rest, Estherium blockchain network, the tools used were the following:',
     link: 'https://ecommercemern-production.up.railway.app/form-1',
     gitlink: 'https://github.com/Maze000/solidityBlockChain',
     elementos: ['Solidity', 'Ethereum', 'Smart Contracts', 'Web3.js', 'Node.js', 'Hardhat']
@@ -48966,7 +48966,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34165" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38303" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
