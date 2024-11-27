@@ -48925,7 +48925,7 @@ function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e
 var Appx = function Appx() {
   return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.BrowserRouter, null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Routes, null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
     path: "/",
-    element: /*#__PURE__*/_react.default.createElement(_Construccion.default, null)
+    element: /*#__PURE__*/_react.default.createElement(_Consolax.default, null)
   }), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
     path: "/portfolio",
     element: /*#__PURE__*/_react.default.createElement(_Consolax.default, null)
@@ -48966,7 +48966,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43507" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "46505" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

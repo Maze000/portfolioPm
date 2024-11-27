@@ -8,7 +8,7 @@ const Appx = () => {
     <div>
       <Router>
           <Routes>
-          <Route path="/" element={<Construccion1/>} />
+          <Route path="/" element={<Consolax/>} />
           <Route path="/portfolio" element={<Consolax/>} />
           </Routes>
       </Router>
