@@ -84,7 +84,7 @@ const App = () => {
 
   // Array de proyectos (puedes agregar más proyectos o generarlos dinámicamente)
   const proyectos = [
-    { id: 1, img: image11p, descripcion: 'Electronic commerce store, the tools used were the following:' ,link: 'https://ecommercemern-production.up.railway.app/form-1',gitlink: 'https://github.com/Maze000/ecommerceMern',elementos: ['React', 'Express', 'MongoDB', 'Node.js',, 'Stripe', 'JSON Web Token (JWT)'] },
+    { id: 1, img: image11p, descripcion: 'Ecommerce platform, the tools used were the following:' ,link: 'https://ecommercemern-production.up.railway.app/form-1',gitlink: 'https://github.com/Maze000/ecommerceMern',elementos: ['React', 'Express', 'MongoDB', 'Node.js',, 'Stripe', 'JSON Web Token (JWT)'] },
     { id: 2, img: image12p, descripcion: 'Crud api rest, Estherium blockchain network, the tools used were the following:', link: 'https://ecommercemern-production.up.railway.app/form-1' ,gitlink: 'https://github.com/Maze000/solidityBlockChain',elementos: ['Solidity', 'Ethereum', 'Smart Contracts', 'Web3.js','Node.js', 'Hardhat']},
     { id: 3, img: image13p, descripcion: 'Motion capture based video game engine, the tools used were the following:' , link: 'https://drive.google.com/file/d/1eR7bxubBCj2yLHpiYvsW-tFKk4Pqr1LU/view?usp=drive_link' ,gitlink: 'https://github.com/Maze000/ecommerceMern',elementos: ['OpenCV', 'Adobe AIR', 'Adobe Flash', 'Kinect SDK', 'ActionScript', 'C++']},
     { id: 4, img: image14p, descripcion: 'Portfolio developed in Nextjs, the tools used were the following:', link: 'https://nextportfolio-production.up.railway.app/'  ,gitlink: 'https://github.com/Maze000/nextPortfolio2',elementos: ['Next.js', 'React', 'Animate.css', 'Bootswatch', 'Classnames', 'NProgress']},

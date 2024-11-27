@@ -48483,7 +48483,7 @@ var App = function App() {
   var proyectos = [{
     id: 1,
     img: _p2.default,
-    descripcion: 'Electronic commerce store, the tools used were the following:',
+    descripcion: 'Ecommerce platform, the tools used were the following:',
     link: 'https://ecommercemern-production.up.railway.app/form-1',
     gitlink: 'https://github.com/Maze000/ecommerceMern',
     elementos: ['React', 'Express', 'MongoDB', 'Node.js',, 'Stripe', 'JSON Web Token (JWT)']
@@ -48966,7 +48966,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "45171" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "46627" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
