@@ -42020,7 +42020,7 @@ var _default = exports.default = Contact;
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../dist/img/mi.jpg":[["mi.a95c296f.jpg","../dist/img/mi.jpg"],"../dist/img/mi.jpg"],"./../dist/img/f2.png":[["f2.9f8c93f7.png","../dist/img/f2.png"],"../dist/img/f2.png"],"./../dist/img/f3.png":[["f3.7bc12884.png","../dist/img/f3.png"],"../dist/img/f3.png"],"./../dist/img/text6.jpg":[["text6.1279ba9d.jpg","../dist/img/text6.jpg"],"../dist/img/text6.jpg"],"./../dist/img/gf.png":[["gf.26a4eef2.png","../dist/img/gf.png"],"../dist/img/gf.png"],"./../dist/img/f2-1.png":[["f2-1.572b0a47.png","../dist/img/f2-1.png"],"../dist/img/f2-1.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../dist/img/1.png":[function(require,module,exports) {
+},{"./../dist/img/mi.jpg":[["mi.a95c296f.jpg","../dist/img/mi.jpg"],"../dist/img/mi.jpg"],"./../dist/img/f2.png":[["f2.9f8c93f7.png","../dist/img/f2.png"],"../dist/img/f2.png"],"./../dist/img/f3.png":[["f3.7bc12884.png","../dist/img/f3.png"],"../dist/img/f3.png"],"./../dist/img/text6.jpg":[["text6.1279ba9d.jpg","../dist/img/text6.jpg"],"../dist/img/text6.jpg"],"./../dist/img/gf.png":[["gf.26a4eef2.png","../dist/img/gf.png"],"../dist/img/gf.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../dist/img/1.png":[function(require,module,exports) {
 module.exports = "/1.dbaaf466.png";
 },{}],"../dist/img/2.png":[function(require,module,exports) {
 module.exports = "/2.abf826fd.png";
@@ -48969,7 +48969,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39459" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37245" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
