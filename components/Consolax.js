@@ -157,7 +157,7 @@ const App = () => {
         <div className="nameCen">
           <div className="nombre">
             <h1><span className="principal">HEY, I'M PATRICIO</span><span className="principal2"> MOLINA</span></h1>
-            <h3>Software Engineer JavaScript Full-Stack</h3>
+            <h3>Software Engineer JavaScript & Python environment.</h3>
             <h4>Creating ideas to build pathways. Welcome to my world, a little space for creativity</h4>
             <Link 
   className='button-tittle'  

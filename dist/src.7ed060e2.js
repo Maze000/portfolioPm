@@ -48697,7 +48697,7 @@ var App = function App() {
     className: "principal"
   }, "HEY, I'M PATRICIO"), /*#__PURE__*/_react.default.createElement("span", {
     className: "principal2"
-  }, " MOLINA")), /*#__PURE__*/_react.default.createElement("h3", null, "Software Engineer JavaScript Full-Stack"), /*#__PURE__*/_react.default.createElement("h4", null, "Creating ideas to build pathways. Welcome to my world, a little space for creativity"), /*#__PURE__*/_react.default.createElement(_reactScroll.Link, {
+  }, " MOLINA")), /*#__PURE__*/_react.default.createElement("h3", null, "Software Engineer JavaScript & Python environment."), /*#__PURE__*/_react.default.createElement("h4", null, "Creating ideas to build pathways. Welcome to my world, a little space for creativity"), /*#__PURE__*/_react.default.createElement(_reactScroll.Link, {
     className: "button-tittle",
     activeClass: "active",
     to: "proyectos",
@@ -48969,7 +48969,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37245" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44511" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
