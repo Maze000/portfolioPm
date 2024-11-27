@@ -581,7 +581,7 @@ h4 {
 }
 .img4{
  
-  background: rgb(221, 221, 221);
+  background-color: #f7f7f7;
   line-height: .5;
 }
 
@@ -770,6 +770,7 @@ align-items: center;
 }
 
 .proyect-box{
+  border-radius: 20px;
   text-align: left;
   background-color: rgb(255, 255, 255);
   
