@@ -785,5 +785,10 @@ align-items: center;
   .element{
     padding: 10px;
   }
+  .proyect-box{
+    
+    background-size: 550px 500px;
+    
+  }
   
 }
