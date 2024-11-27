@@ -716,6 +716,7 @@ align-items: center;
     
     height: auto;
     padding-bottom: 100px;
+    padding-top: 0;
   }
   .skillsSection {
     flex-direction: column;
