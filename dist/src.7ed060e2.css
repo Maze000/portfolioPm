@@ -773,7 +773,8 @@ align-items: center;
 .proyect-box{
   border-radius: 20px;
   text-align: left;
-  background-color: rgb(255, 255, 255);
+  background: url('/proj1.e2c02ebf.png') no-repeat center;
+  background-size: 550px 550px;
   box-shadow: 0px 12px 15px 5px rgba(0, 0, 0, 0.336);
 }
 .project img {
