@@ -84,33 +84,33 @@ const App = () => {
 
   // Array de proyectos (puedes agregar más proyectos o generarlos dinámicamente)
   const proyectos = [
-    { id: 1, img: image11p, descripcion: 'Proyecto 1' ,link: 'https://ecommercemern-production.up.railway.app/form-1',gitlink: 'https://github.com/Maze000/ecommerceMern',elementos: ['React', 'Express', 'MongoDB', 'Node.js',, 'Stripe', 'JSON Web Token (JWT)'] },
-    { id: 2, img: image12p, descripcion: 'Proyecto 2', link: 'https://ecommercemern-production.up.railway.app/form-1' ,gitlink: 'https://github.com/Maze000/solidityBlockChain',elementos: ['Solidity', 'Ethereum', 'Smart Contracts', 'Web3.js','Node.js', 'Hardhat']},
-    { id: 3, img: image13p, descripcion: 'Proyecto 3' , link: 'https://drive.google.com/file/d/1eR7bxubBCj2yLHpiYvsW-tFKk4Pqr1LU/view?usp=drive_link' ,gitlink: 'https://github.com/Maze000/ecommerceMern',elementos: ['OpenCV', 'Adobe AIR', 'Adobe Flash', 'Kinect SDK', 'ActionScript', 'C++']},
-    { id: 4, img: image14p, descripcion: 'Proyecto 4', link: 'https://nextportfolio-production.up.railway.app/'  ,gitlink: 'https://github.com/Maze000/nextPortfolio2',elementos: ['Next.js', 'React', 'Animate.css', 'Bootswatch', 'Classnames', 'NProgress']},
+    { id: 1, img: image11p, descripcion: 'This application works as an electronic commerce store, the tools used were the following:' ,link: 'https://ecommercemern-production.up.railway.app/form-1',gitlink: 'https://github.com/Maze000/ecommerceMern',elementos: ['React', 'Express', 'MongoDB', 'Node.js',, 'Stripe', 'JSON Web Token (JWT)'] },
+    { id: 2, img: image12p, descripcion: 'Crud api rest developed on the Estherium blockchain network, the tools used were the following:', link: 'https://ecommercemern-production.up.railway.app/form-1' ,gitlink: 'https://github.com/Maze000/solidityBlockChain',elementos: ['Solidity', 'Ethereum', 'Smart Contracts', 'Web3.js','Node.js', 'Hardhat']},
+    { id: 3, img: image13p, descripcion: 'Motion capture based video game engine, the tools used were the following:' , link: 'https://drive.google.com/file/d/1eR7bxubBCj2yLHpiYvsW-tFKk4Pqr1LU/view?usp=drive_link' ,gitlink: 'https://github.com/Maze000/ecommerceMern',elementos: ['OpenCV', 'Adobe AIR', 'Adobe Flash', 'Kinect SDK', 'ActionScript', 'C++']},
+    { id: 4, img: image14p, descripcion: 'Portfolio developed in Nextjs, the tools used were the following:', link: 'https://nextportfolio-production.up.railway.app/'  ,gitlink: 'https://github.com/Maze000/nextPortfolio2',elementos: ['Next.js', 'React', 'Animate.css', 'Bootswatch', 'Classnames', 'NProgress']},
     //{ id: 5, img: image15p, descripcion: 'Proyecto 5' },
-    { id: 6, img: image16p, descripcion: 'Proyecto 6' , link: 'https://reacttsapp-production.up.railway.app/' ,gitlink: 'https://github.com/Maze000/reactTsApp',elementos: ['React', 'React DOM', 'React Router DOM', 'CSS']},
+    { id: 6, img: image16p, descripcion: 'Image gallery, the tools used were the following:' , link: 'https://reacttsapp-production.up.railway.app/' ,gitlink: 'https://github.com/Maze000/reactTsApp',elementos: ['React', 'React DOM', 'React Router DOM', 'CSS']},
    // { id: 7, img: image17pro, descripcion: 'Proyecto 7' },
     //{ id: 8, img: image18pro, descripcion: 'Proyecto 8' },
-    { id: 9, img: image19pro, descripcion: 'Proyecto 9' , link: 'https://reacttsapp-production.up.railway.app/' ,gitlink: 'https://github.com/Maze000/reactTsApp',elementos: ['React', 'React DOM', 'TypeScript', 'React Scripts', 'BootsWatch','React Icons']},
-    { id: 10, img: image20pro, descripcion: 'Proyecto 10' , link: 'https://reactcoingeckoapp-production.up.railway.app/' ,gitlink: 'https://github.com/Maze000/reactCoinGeckoApp',elementos: ['React', 'React DOM', 'Axios', 'Bootstrap', 'React Scripts', 'Coingecko API']},
+    { id: 9, img: image19pro, descripcion: 'Crud api rest, the tools used were the following:' , link: 'https://reacttsapp-production.up.railway.app/' ,gitlink: 'https://github.com/Maze000/reactTsApp',elementos: ['React', 'React DOM', 'TypeScript', 'React Scripts', 'BootsWatch','React Icons']},
+    { id: 10, img: image20pro, descripcion: 'Cryptocurrency tracker, the tools used were the following:' , link: 'https://reactcoingeckoapp-production.up.railway.app/' ,gitlink: 'https://github.com/Maze000/reactCoinGeckoApp',elementos: ['React', 'React DOM', 'Axios', 'Bootstrap', 'React Scripts', 'Coingecko API']},
     //{ id: 11, img: image21pro, descripcion: 'Proyecto 11' },
-    { id: 12, img: image22pro, descripcion: 'Proyecto 12' , link: 'https://flaskreactappcrud-production.up.railway.app/',gitlink: 'https://github.com/Maze000/flaskReactAppCrud',elementos: ['Flask', 'React', 'MongoDB', 'Axios', 'Bootstrap', 'Flask-CORS'] },
+    { id: 12, img: image22pro, descripcion: 'Crud with data storage, the tools used were the following:' , link: 'https://flaskreactappcrud-production.up.railway.app/',gitlink: 'https://github.com/Maze000/flaskReactAppCrud',elementos: ['Flask', 'React', 'MongoDB', 'Axios', 'Bootstrap', 'Flask-CORS'] },
    // { id: 13, img: image23pro, descripcion: 'Proyecto 13' },
-    { id: 14, img: image24pro, descripcion: 'Proyecto 14' , link: 'https://nodepushnotification-production.up.railway.app/' ,gitlink: 'https://github.com/Maze000/nodePushNotification',elementos: ['Node.js', 'Express', 'Web Push', 'Dotenv', 'Morgan', 'Nodemon']},
+    { id: 14, img: image24pro, descripcion: 'Notifications in the browser, the tools used were the following:' , link: 'https://nodepushnotification-production.up.railway.app/' ,gitlink: 'https://github.com/Maze000/nodePushNotification',elementos: ['Node.js', 'Express', 'Web Push', 'Dotenv', 'Morgan', 'Nodemon']},
     //{ id: 15, img: image25pro, descripcion: 'Proyecto 15' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']},
-    { id: 16, img: image26pro, descripcion: 'Proyecto 16' , link: 'https://jsquiz-production.up.railway.app/' ,gitlink: 'https://github.com/Maze000/jsQuiz',elementos: ['HTML', 'JS', 'CSS']},
+    { id: 16, img: image26pro, descripcion: 'Quiz test, the tools used were the following:' , link: 'https://jsquiz-production.up.railway.app/' ,gitlink: 'https://github.com/Maze000/jsQuiz',elementos: ['HTML', 'JS', 'CSS']},
     //{ id: 17, img: image27pro, descripcion: 'Proyecto 17' },
     //{ id: 18, img: image28pro, descripcion: 'Proyecto 18' },
     //{ id: 19, img: image29pro, descripcion: 'Proyecto 19' },
-    { id: 20, img: image30pro, descripcion: 'Proyecto 20' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,gitlink: 'https://github.com/Maze000/movieAPiRest',elementos: ['React', 'React DOM', 'Webpack', 'Babel', 'Bootswatch', 'OMDb API']},
+    { id: 20, img: image30pro, descripcion: 'Api rest for film showcase, the tools used were the following:' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,gitlink: 'https://github.com/Maze000/movieAPiRest',elementos: ['React', 'React DOM', 'Webpack', 'Babel', 'Bootswatch', 'OMDb API']},
     //{ id: 21, img: image31pro, descripcion: 'Proyecto 21' },
-    { id: 21, img: image32pro, descripcion: 'Proyecto 22' , link: 'https://mernuservalidatorcrud-production.up.railway.app/login',gitlink: 'https://github.com/Maze000/mernUserValidatorCrud',elementos: ['React', 'Express', 'Mongoose', 'JSON Web Token (JWT)', 'Webpack', 'Jest'] },
-    { id: 21, img: image33pro, descripcion: 'Proyecto 23' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,gitlink: 'https://github.com/Maze000/ecommerceMern',elementos: ['React', 'React DOM', 'React Router DOM', 'Stripe API', 'Fetch', 'Webpack']},
+    { id: 21, img: image32pro, descripcion: 'User validation with token, the tools used were the following:' , link: 'https://mernuservalidatorcrud-production.up.railway.app/login',gitlink: 'https://github.com/Maze000/mernUserValidatorCrud',elementos: ['React', 'Express', 'Mongoose', 'JSON Web Token (JWT)', 'Webpack', 'Jest'] },
+    { id: 21, img: image33pro, descripcion: 'Online payment system, the tools used were the following:' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,gitlink: 'https://github.com/Maze000/ecommerceMern',elementos: ['React', 'React DOM', 'React Router DOM', 'Stripe API', 'Fetch', 'Webpack']},
     //{ id: 21, img: image34pro, descripcion: 'Proyecto 24' },
-    { id: 21, img: image35pro, descripcion: 'Proyecto 25', link: 'https://patriciomolinae.com/'  ,gitlink: 'https://github.com/Maze000/portfolioPm',elementos: ['React', 'React DOM', 'React Router DOM', 'React Scroll', 'Express', 'Nodemailer']},
-    { id: 21, img: image36pro, descripcion: 'Proyecto 26' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,gitlink: 'https://github.com/Maze000/chatGptApi',elementos: ['React', 'React DOM', 'OpenAI API', 'Fetch API', 'CSS']},
-    { id: 21, img: image37pro, descripcion: 'Proyecto 27' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,gitlink: 'https://github.com/Maze000/dallEApi',elementos: ['React', 'React DOM', 'OpenAI API', 'Fetch API', 'CSS']}
+    { id: 21, img: image35pro, descripcion: 'Portfolio developed in React, the tools used were the following:', link: 'https://patriciomolinae.com/'  ,gitlink: 'https://github.com/Maze000/portfolioPm',elementos: ['React', 'React DOM', 'React Router DOM', 'React Scroll', 'Express', 'Nodemailer']},
+    { id: 21, img: image36pro, descripcion: 'Integration of chatgpt api, the tools used were the following:' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,gitlink: 'https://github.com/Maze000/chatGptApi',elementos: ['React', 'React DOM', 'OpenAI API', 'Fetch API', 'CSS']},
+    { id: 21, img: image37pro, descripcion: 'Integration of chatgpt api for Dall-E2, the tools used were the following:' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,gitlink: 'https://github.com/Maze000/dallEApi',elementos: ['React', 'React DOM', 'OpenAI API', 'Fetch API', 'CSS']}
   ];
 
   return (
@@ -175,7 +175,7 @@ const App = () => {
 
       </Element>
 
-      <Element name="skills" className="element img1">
+      <Element name="skills" className="element-about img1">
       <div className='aboutme'>
           <h2>ABOUT ME</h2>
           <p className='intro'>This is a small extract of my career in the <strong>software technology</strong> field and what my path has been like 
@@ -184,13 +184,13 @@ const App = () => {
         <div className="skillsSection">
           <div className="skillsDescription">
             <h2>Something about me...</h2>
-            <p>My first steps in programming were with the creation of video games with <strong>Python</strong> and <strong>Pygame</strong>. 
-            <strong> Python</strong> was my first language and the most beloved simply because of its simplicity. 
-              Later <strong>Javascript</strong> appeared along the way and I have been growing up with its environment.
+            <p>My journey into programming began with the creation of video games using <strong>Python</strong> and <strong>Pygame</strong>.
+            Over time, I expanded my skills, diving into languages like <strong>C++</strong>, <strong>PHP</strong>, and <strong>JavaScript</strong>, leveraging various tools within the latter ecosystem.
+            Currently, I am focused on working with <strong>LangChain</strong>, an AI framework, and integrating cutting-edge technologies to build innovative solutions. 
+            If you'd like to share ideas or collaborate on projects, feel free to connect with me on <a href="https://www.linkedin.com/in/patricio-molina-escobar-62571623b/" target="_blank" rel="noopener noreferrer" className="">
               
-              Feel free to Connect or Follow me on my <a href="https://www.linkedin.com/in/patricio-molina-escobar-62571623b/" target="_blank" rel="noopener noreferrer" className="">
+              <strong>Linkedin</strong></a>.
               
-              <strong>Linkedin</strong></a> if you want to share any ideas or complete one.
               
               
               </p>

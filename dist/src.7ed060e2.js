@@ -48483,28 +48483,28 @@ var App = function App() {
   var proyectos = [{
     id: 1,
     img: _p2.default,
-    descripcion: 'Proyecto 1',
+    descripcion: 'This application works as an electronic commerce store, the tools used were the following:',
     link: 'https://ecommercemern-production.up.railway.app/form-1',
     gitlink: 'https://github.com/Maze000/ecommerceMern',
     elementos: ['React', 'Express', 'MongoDB', 'Node.js',, 'Stripe', 'JSON Web Token (JWT)']
   }, {
     id: 2,
     img: _p4.default,
-    descripcion: 'Proyecto 2',
+    descripcion: 'Crud api rest developed on the Estherium blockchain network, the tools used were the following:',
     link: 'https://ecommercemern-production.up.railway.app/form-1',
     gitlink: 'https://github.com/Maze000/solidityBlockChain',
     elementos: ['Solidity', 'Ethereum', 'Smart Contracts', 'Web3.js', 'Node.js', 'Hardhat']
   }, {
     id: 3,
     img: _p6.default,
-    descripcion: 'Proyecto 3',
+    descripcion: 'Motion capture based video game engine, the tools used were the following:',
     link: 'https://drive.google.com/file/d/1eR7bxubBCj2yLHpiYvsW-tFKk4Pqr1LU/view?usp=drive_link',
     gitlink: 'https://github.com/Maze000/ecommerceMern',
     elementos: ['OpenCV', 'Adobe AIR', 'Adobe Flash', 'Kinect SDK', 'ActionScript', 'C++']
   }, {
     id: 4,
     img: _p8.default,
-    descripcion: 'Proyecto 4',
+    descripcion: 'Portfolio developed in Nextjs, the tools used were the following:',
     link: 'https://nextportfolio-production.up.railway.app/',
     gitlink: 'https://github.com/Maze000/nextPortfolio2',
     elementos: ['Next.js', 'React', 'Animate.css', 'Bootswatch', 'Classnames', 'NProgress']
@@ -48513,7 +48513,7 @@ var App = function App() {
   {
     id: 6,
     img: _p12.default,
-    descripcion: 'Proyecto 6',
+    descripcion: 'Image gallery, the tools used were the following:',
     link: 'https://reacttsapp-production.up.railway.app/',
     gitlink: 'https://github.com/Maze000/reactTsApp',
     elementos: ['React', 'React DOM', 'React Router DOM', 'CSS']
@@ -48523,14 +48523,14 @@ var App = function App() {
   {
     id: 9,
     img: _p14.default,
-    descripcion: 'Proyecto 9',
+    descripcion: 'Crud api rest, the tools used were the following:',
     link: 'https://reacttsapp-production.up.railway.app/',
     gitlink: 'https://github.com/Maze000/reactTsApp',
     elementos: ['React', 'React DOM', 'TypeScript', 'React Scripts', 'BootsWatch', 'React Icons']
   }, {
     id: 10,
     img: _p15.default,
-    descripcion: 'Proyecto 10',
+    descripcion: 'Cryptocurrency tracker, the tools used were the following:',
     link: 'https://reactcoingeckoapp-production.up.railway.app/',
     gitlink: 'https://github.com/Maze000/reactCoinGeckoApp',
     elementos: ['React', 'React DOM', 'Axios', 'Bootstrap', 'React Scripts', 'Coingecko API']
@@ -48539,7 +48539,7 @@ var App = function App() {
   {
     id: 12,
     img: _p17.default,
-    descripcion: 'Proyecto 12',
+    descripcion: 'Crud with data storage, the tools used were the following:',
     link: 'https://flaskreactappcrud-production.up.railway.app/',
     gitlink: 'https://github.com/Maze000/flaskReactAppCrud',
     elementos: ['Flask', 'React', 'MongoDB', 'Axios', 'Bootstrap', 'Flask-CORS']
@@ -48548,7 +48548,7 @@ var App = function App() {
   {
     id: 14,
     img: _p19.default,
-    descripcion: 'Proyecto 14',
+    descripcion: 'Notifications in the browser, the tools used were the following:',
     link: 'https://nodepushnotification-production.up.railway.app/',
     gitlink: 'https://github.com/Maze000/nodePushNotification',
     elementos: ['Node.js', 'Express', 'Web Push', 'Dotenv', 'Morgan', 'Nodemon']
@@ -48557,7 +48557,7 @@ var App = function App() {
   {
     id: 16,
     img: _p21.default,
-    descripcion: 'Proyecto 16',
+    descripcion: 'Quiz test, the tools used were the following:',
     link: 'https://jsquiz-production.up.railway.app/',
     gitlink: 'https://github.com/Maze000/jsQuiz',
     elementos: ['HTML', 'JS', 'CSS']
@@ -48568,7 +48568,7 @@ var App = function App() {
   {
     id: 20,
     img: _p25.default,
-    descripcion: 'Proyecto 20',
+    descripcion: 'Api rest for film showcase, the tools used were the following:',
     link: 'https://ecommercemern-production.up.railway.app/form-1',
     gitlink: 'https://github.com/Maze000/movieAPiRest',
     elementos: ['React', 'React DOM', 'Webpack', 'Babel', 'Bootswatch', 'OMDb API']
@@ -48577,14 +48577,14 @@ var App = function App() {
   {
     id: 21,
     img: _p27.default,
-    descripcion: 'Proyecto 22',
+    descripcion: 'User validation with token, the tools used were the following:',
     link: 'https://mernuservalidatorcrud-production.up.railway.app/login',
     gitlink: 'https://github.com/Maze000/mernUserValidatorCrud',
     elementos: ['React', 'Express', 'Mongoose', 'JSON Web Token (JWT)', 'Webpack', 'Jest']
   }, {
     id: 21,
     img: _p28.default,
-    descripcion: 'Proyecto 23',
+    descripcion: 'Online payment system, the tools used were the following:',
     link: 'https://ecommercemern-production.up.railway.app/form-1',
     gitlink: 'https://github.com/Maze000/ecommerceMern',
     elementos: ['React', 'React DOM', 'React Router DOM', 'Stripe API', 'Fetch', 'Webpack']
@@ -48593,21 +48593,21 @@ var App = function App() {
   {
     id: 21,
     img: _p30.default,
-    descripcion: 'Proyecto 25',
+    descripcion: 'Portfolio developed in React, the tools used were the following:',
     link: 'https://patriciomolinae.com/',
     gitlink: 'https://github.com/Maze000/portfolioPm',
     elementos: ['React', 'React DOM', 'React Router DOM', 'React Scroll', 'Express', 'Nodemailer']
   }, {
     id: 21,
     img: _p31.default,
-    descripcion: 'Proyecto 26',
+    descripcion: 'Integration of chatgpt api, the tools used were the following:',
     link: 'https://ecommercemern-production.up.railway.app/form-1',
     gitlink: 'https://github.com/Maze000/chatGptApi',
     elementos: ['React', 'React DOM', 'OpenAI API', 'Fetch API', 'CSS']
   }, {
     id: 21,
     img: _p32.default,
-    descripcion: 'Proyecto 27',
+    descripcion: 'Integration of chatgpt api for Dall-E2, the tools used were the following:',
     link: 'https://ecommercemern-production.up.railway.app/form-1',
     gitlink: 'https://github.com/Maze000/dallEApi',
     elementos: ['React', 'React DOM', 'OpenAI API', 'Fetch API', 'CSS']
@@ -48708,7 +48708,7 @@ var App = function App() {
     onClick: toggleMenu
   }, "PROJECTS")))), /*#__PURE__*/_react.default.createElement(_reactScroll.Element, {
     name: "skills",
-    className: "element img1"
+    className: "element-about img1"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "aboutme"
   }, /*#__PURE__*/_react.default.createElement("h2", null, "ABOUT ME"), /*#__PURE__*/_react.default.createElement("p", {
@@ -48717,12 +48717,12 @@ var App = function App() {
     className: "skillsSection"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "skillsDescription"
-  }, /*#__PURE__*/_react.default.createElement("h2", null, "Something about me..."), /*#__PURE__*/_react.default.createElement("p", null, "My first steps in programming were with the creation of video games with ", /*#__PURE__*/_react.default.createElement("strong", null, "Python"), " and ", /*#__PURE__*/_react.default.createElement("strong", null, "Pygame"), ".", /*#__PURE__*/_react.default.createElement("strong", null, " Python"), " was my first language and the most beloved simply because of its simplicity. Later ", /*#__PURE__*/_react.default.createElement("strong", null, "Javascript"), " appeared along the way and I have been growing up with its environment. Feel free to Connect or Follow me on my ", /*#__PURE__*/_react.default.createElement("a", {
+  }, /*#__PURE__*/_react.default.createElement("h2", null, "Something about me..."), /*#__PURE__*/_react.default.createElement("p", null, "My journey into programming began with the creation of video games using ", /*#__PURE__*/_react.default.createElement("strong", null, "Python"), " and ", /*#__PURE__*/_react.default.createElement("strong", null, "Pygame"), ". Over time, I expanded my skills, diving into languages like ", /*#__PURE__*/_react.default.createElement("strong", null, "C++"), ", ", /*#__PURE__*/_react.default.createElement("strong", null, "PHP"), ", and ", /*#__PURE__*/_react.default.createElement("strong", null, "JavaScript"), ", leveraging various tools within the latter ecosystem. Currently, I am focused on working with ", /*#__PURE__*/_react.default.createElement("strong", null, "LangChain"), ", an AI framework, and integrating cutting-edge technologies to build innovative solutions. If you'd like to share ideas or collaborate on projects, feel free to connect with me on ", /*#__PURE__*/_react.default.createElement("a", {
     href: "https://www.linkedin.com/in/patricio-molina-escobar-62571623b/",
     target: "_blank",
     rel: "noopener noreferrer",
     className: ""
-  }, /*#__PURE__*/_react.default.createElement("strong", null, "Linkedin")), " if you want to share any ideas or complete one."), /*#__PURE__*/_react.default.createElement(_reactScroll.Link, {
+  }, /*#__PURE__*/_react.default.createElement("strong", null, "Linkedin")), "."), /*#__PURE__*/_react.default.createElement(_reactScroll.Link, {
     className: "button-aboutme",
     activeClass: "active",
     to: "contacto",
@@ -48969,7 +48969,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40845" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39459" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

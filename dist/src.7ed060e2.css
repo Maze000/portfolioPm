@@ -271,6 +271,7 @@ nav a:hover{
   border-radius: 10px;
   cursor: pointer;
   margin-top: 100px;
+  
   border: none;
   font-weight: 900;
   font-size: 16px;
@@ -303,6 +304,13 @@ nav a:hover{
   text-align: center;
   color: white;
   height: 1000px;
+}
+
+.element-about{
+  padding: 60px 0;
+  text-align: center;
+  color: white;
+  height: 1100px;
 }
 h1 {
   font-size: 48px;
@@ -406,24 +414,7 @@ h4 {
 }
 
 
-@media (max-width: 768px) {
-  .skillsDescription, .skillsContainer {
-    flex-basis: 100%;
-    max-width: 100%;
-    text-align: center; 
-    gap: 1px;
 
-    padding:0;
-  }
-  
-  .skillsContainer img {
-    
-    max-width: 40%;
-    
-    
-  }
-  
-}
 
 
 
@@ -484,14 +475,14 @@ h4 {
 }
 
 .tittle-proyect{
-  
-  text-align: center;
+  padding: 30px;
+  text-align: left;
   width: 480px;
   height: 50px;
   line-height: 1.6;
   
   
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 
@@ -592,7 +583,7 @@ h4 {
     position: absolute; 
     top: 60px; 
     left: 0;
-    background-color: #00161bcc; 
+    background-color: #cfcfcfcc; 
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   }
 
@@ -607,6 +598,23 @@ h4 {
     margin: 10px 0; 
     text-align: left;
     width: 100%; 
+  }
+
+  .skillsDescription, .skillsContainer {
+    flex-basis: 100%;
+    max-width: 100%;
+    text-align: center; 
+    gap: 1px;
+
+    padding:0;
+  }
+  
+  .skillsContainer img {
+    
+    max-width: 40%;
+  }
+  .avatar-init{
+    display: none;
   }
 }
 
@@ -642,7 +650,7 @@ h4 {
   background-color: rgba(0, 0, 0); 
   margin-bottom: 0;
   width: 100%;
-  height: 300px;
+  height: 150px;
   
 }
 
@@ -841,7 +849,7 @@ align-items: center;
     padding: 0;
     
   }
-
+  
   
 }
 
