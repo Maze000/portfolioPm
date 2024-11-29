@@ -48499,7 +48499,7 @@ var App = function App() {
     img: _p6.default,
     descripcion: 'Motion capture based video game engine, the tools used were the following:',
     link: 'https://drive.google.com/file/d/1eR7bxubBCj2yLHpiYvsW-tFKk4Pqr1LU/view?usp=drive_link',
-    gitlink: 'https://github.com/Maze000/ecommerceMern',
+    gitlink: 'https://patriciomolinae.com/',
     elementos: ['OpenCV', 'Adobe AIR', 'Adobe Flash', 'Kinect SDK', 'ActionScript', 'C++']
   }, {
     id: 4,
@@ -48508,9 +48508,14 @@ var App = function App() {
     link: 'https://nextportfolio-production.up.railway.app/',
     gitlink: 'https://github.com/Maze000/nextPortfolio',
     elementos: ['Next.js', 'React', 'Animate.css', 'Bootswatch', 'Classnames', 'NProgress']
-  },
-  //{ id: 5, img: image15p, descripcion: 'Proyecto 5' },
-  {
+  }, {
+    id: 5,
+    img: _p8.default,
+    descripcion: 'Video-game rpg clicker mode, the tools used were the following:',
+    link: 'https://maze000.github.io/newWorldOrder-rpg/',
+    gitlink: 'https://github.com/Maze000/newWorldOrder-rpg?tab=readme-ov-file',
+    elementos: ['HTML', 'CSS', 'JS']
+  }, {
     id: 6,
     img: _p12.default,
     descripcion: 'Image gallery, the tools used were the following:',
@@ -48966,7 +48971,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37201" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39575" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
