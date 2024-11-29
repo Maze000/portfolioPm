@@ -25,7 +25,7 @@ import image11p2 from '../dist/img/11p2.png';
 import image12p from '../dist/img/12p.png';
 import image12p2 from '../dist/img/12p2.png';
 import image13p from '../dist/img/13p.png';
-import image13p2 from '../dist/img/13p2.png';
+import image13p2 from '../dist/img/img1.png';
 import image14p from '../dist/img/14p.png';
 import image14p2 from '../dist/img/14p2.png';
 import image15p from '../dist/img/15p.png';
@@ -88,7 +88,7 @@ const App = () => {
     { id: 2, img: image12p, descripcion: 'Crud api rest, Estherium blockchain network, the tools used were the following:', link: 'https://patriciomolinae.com/' ,gitlink: 'https://github.com/Maze000/solidityBlockChain',elementos: ['Solidity', 'Ethereum', 'Smart Contracts', 'Web3.js','Node.js', 'Hardhat']},
     { id: 3, img: image13p, descripcion: 'Motion capture based video game engine, the tools used were the following:' , link: 'https://drive.google.com/file/d/1eR7bxubBCj2yLHpiYvsW-tFKk4Pqr1LU/view?usp=drive_link' ,gitlink: 'https://patriciomolinae.com/',elementos: ['OpenCV', 'Adobe AIR', 'Adobe Flash', 'Kinect SDK', 'ActionScript', 'C++']},
     { id: 4, img: image14p, descripcion: 'Portfolio developed in Nextjs, the tools used were the following:', link: 'https://nextportfolio-production.up.railway.app/'  ,gitlink: 'https://github.com/Maze000/nextPortfolio',elementos: ['Next.js', 'React', 'Animate.css', 'Bootswatch', 'Classnames', 'NProgress']},
-    { id: 5, img: image14p, descripcion: 'Video-game rpg clicker mode, the tools used were the following:', link: 'https://maze000.github.io/newWorldOrder-rpg/'  ,gitlink: 'https://github.com/Maze000/newWorldOrder-rpg?tab=readme-ov-file',elementos: ['HTML', 'CSS', 'JS']},
+    { id: 5, img: image13p2, descripcion: 'Video-game rpg clicker mode, the tools used were the following:', link: 'https://maze000.github.io/newWorldOrder-rpg/'  ,gitlink: 'https://github.com/Maze000/newWorldOrder-rpg?tab=readme-ov-file',elementos: ['HTML', 'CSS', 'JS']},
     { id: 6, img: image16p, descripcion: 'Image gallery, the tools used were the following:' , link: 'https://patriciomolinae.com/' ,gitlink: 'https://patriciomolinae.com/',elementos: ['React', 'React DOM', 'React Router DOM', 'CSS']},
    // { id: 7, img: image17pro, descripcion: 'Proyecto 7' },
     //{ id: 8, img: image18pro, descripcion: 'Proyecto 8' },

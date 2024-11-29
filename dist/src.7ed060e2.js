@@ -42066,8 +42066,8 @@ module.exports = "/12p.f29d74bd.png";
 module.exports = "/12p2.b1145fff.png";
 },{}],"../dist/img/13p.png":[function(require,module,exports) {
 module.exports = "/13p.d356bcb6.png";
-},{}],"../dist/img/13p2.png":[function(require,module,exports) {
-module.exports = "/13p2.909775c6.png";
+},{}],"../dist/img/img1.png":[function(require,module,exports) {
+module.exports = "/img1.e7b78d29.png";
 },{}],"../dist/img/14p.png":[function(require,module,exports) {
 module.exports = "/14p.c9dc3324.png";
 },{}],"../dist/img/14p2.png":[function(require,module,exports) {
@@ -48413,32 +48413,32 @@ var _p3 = _interopRequireDefault(require("../dist/img/11p2.png"));
 var _p4 = _interopRequireDefault(require("../dist/img/12p.png"));
 var _p5 = _interopRequireDefault(require("../dist/img/12p2.png"));
 var _p6 = _interopRequireDefault(require("../dist/img/13p.png"));
-var _p7 = _interopRequireDefault(require("../dist/img/13p2.png"));
-var _p8 = _interopRequireDefault(require("../dist/img/14p.png"));
-var _p9 = _interopRequireDefault(require("../dist/img/14p2.png"));
-var _p10 = _interopRequireDefault(require("../dist/img/15p.png"));
-var _p11 = _interopRequireDefault(require("../dist/img/15p2.png"));
-var _p12 = _interopRequireDefault(require("../dist/img/16p.png"));
-var _p13 = _interopRequireDefault(require("../dist/img/18p.png"));
-var _p14 = _interopRequireDefault(require("../dist/img/19p.png"));
-var _p15 = _interopRequireDefault(require("../dist/img/20p.png"));
-var _p16 = _interopRequireDefault(require("../dist/img/21p.png"));
-var _p17 = _interopRequireDefault(require("../dist/img/22p.png"));
-var _p18 = _interopRequireDefault(require("../dist/img/23p.png"));
-var _p19 = _interopRequireDefault(require("../dist/img/24p.png"));
-var _p20 = _interopRequireDefault(require("../dist/img/25p.png"));
-var _p21 = _interopRequireDefault(require("../dist/img/26p.png"));
-var _p22 = _interopRequireDefault(require("../dist/img/27p.png"));
-var _p23 = _interopRequireDefault(require("../dist/img/28p.png"));
-var _p24 = _interopRequireDefault(require("../dist/img/29p.png"));
-var _p25 = _interopRequireDefault(require("../dist/img/30p.png"));
-var _p26 = _interopRequireDefault(require("../dist/img/31p.png"));
-var _p27 = _interopRequireDefault(require("../dist/img/32p.png"));
-var _p28 = _interopRequireDefault(require("../dist/img/33p.png"));
-var _p29 = _interopRequireDefault(require("../dist/img/34p.png"));
-var _p30 = _interopRequireDefault(require("../dist/img/35p.png"));
-var _p31 = _interopRequireDefault(require("../dist/img/36p.png"));
-var _p32 = _interopRequireDefault(require("../dist/img/37p.png"));
+var _img = _interopRequireDefault(require("../dist/img/img1.png"));
+var _p7 = _interopRequireDefault(require("../dist/img/14p.png"));
+var _p8 = _interopRequireDefault(require("../dist/img/14p2.png"));
+var _p9 = _interopRequireDefault(require("../dist/img/15p.png"));
+var _p10 = _interopRequireDefault(require("../dist/img/15p2.png"));
+var _p11 = _interopRequireDefault(require("../dist/img/16p.png"));
+var _p12 = _interopRequireDefault(require("../dist/img/18p.png"));
+var _p13 = _interopRequireDefault(require("../dist/img/19p.png"));
+var _p14 = _interopRequireDefault(require("../dist/img/20p.png"));
+var _p15 = _interopRequireDefault(require("../dist/img/21p.png"));
+var _p16 = _interopRequireDefault(require("../dist/img/22p.png"));
+var _p17 = _interopRequireDefault(require("../dist/img/23p.png"));
+var _p18 = _interopRequireDefault(require("../dist/img/24p.png"));
+var _p19 = _interopRequireDefault(require("../dist/img/25p.png"));
+var _p20 = _interopRequireDefault(require("../dist/img/26p.png"));
+var _p21 = _interopRequireDefault(require("../dist/img/27p.png"));
+var _p22 = _interopRequireDefault(require("../dist/img/28p.png"));
+var _p23 = _interopRequireDefault(require("../dist/img/29p.png"));
+var _p24 = _interopRequireDefault(require("../dist/img/30p.png"));
+var _p25 = _interopRequireDefault(require("../dist/img/31p.png"));
+var _p26 = _interopRequireDefault(require("../dist/img/32p.png"));
+var _p27 = _interopRequireDefault(require("../dist/img/33p.png"));
+var _p28 = _interopRequireDefault(require("../dist/img/34p.png"));
+var _p29 = _interopRequireDefault(require("../dist/img/35p.png"));
+var _p30 = _interopRequireDefault(require("../dist/img/36p.png"));
+var _p31 = _interopRequireDefault(require("../dist/img/37p.png"));
 var _reactFontawesome = require("@fortawesome/react-fontawesome");
 var _freeBrandsSvgIcons = require("@fortawesome/free-brands-svg-icons");
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }
@@ -48503,21 +48503,21 @@ var App = function App() {
     elementos: ['OpenCV', 'Adobe AIR', 'Adobe Flash', 'Kinect SDK', 'ActionScript', 'C++']
   }, {
     id: 4,
-    img: _p8.default,
+    img: _p7.default,
     descripcion: 'Portfolio developed in Nextjs, the tools used were the following:',
     link: 'https://nextportfolio-production.up.railway.app/',
     gitlink: 'https://github.com/Maze000/nextPortfolio',
     elementos: ['Next.js', 'React', 'Animate.css', 'Bootswatch', 'Classnames', 'NProgress']
   }, {
     id: 5,
-    img: _p8.default,
+    img: _img.default,
     descripcion: 'Video-game rpg clicker mode, the tools used were the following:',
     link: 'https://maze000.github.io/newWorldOrder-rpg/',
     gitlink: 'https://github.com/Maze000/newWorldOrder-rpg?tab=readme-ov-file',
     elementos: ['HTML', 'CSS', 'JS']
   }, {
     id: 6,
-    img: _p12.default,
+    img: _p11.default,
     descripcion: 'Image gallery, the tools used were the following:',
     link: 'https://patriciomolinae.com/',
     gitlink: 'https://patriciomolinae.com/',
@@ -48527,14 +48527,14 @@ var App = function App() {
   //{ id: 8, img: image18pro, descripcion: 'Proyecto 8' },
   {
     id: 9,
-    img: _p14.default,
+    img: _p13.default,
     descripcion: 'Crud api rest, the tools used were the following:',
     link: 'https://reacttsapp-production.up.railway.app/',
     gitlink: 'https://github.com/Maze000/reactTsApp',
     elementos: ['React', 'React DOM', 'TypeScript', 'React Scripts', 'BootsWatch', 'React Icons']
   }, {
     id: 10,
-    img: _p15.default,
+    img: _p14.default,
     descripcion: 'Cryptocurrency tracker, the tools used were the following:',
     link: 'https://reactcoingeckoapp-production.up.railway.app/',
     gitlink: 'https://github.com/Maze000/reactCoinGeckoApp',
@@ -48543,7 +48543,7 @@ var App = function App() {
   //{ id: 11, img: image21pro, descripcion: 'Proyecto 11' },
   {
     id: 12,
-    img: _p17.default,
+    img: _p16.default,
     descripcion: 'Crud with data storage, the tools used were the following:',
     link: 'https://flaskreactappcrud-production.up.railway.app/',
     gitlink: 'https://github.com/Maze000/flaskReactAppCrud',
@@ -48552,7 +48552,7 @@ var App = function App() {
   // { id: 13, img: image23pro, descripcion: 'Proyecto 13' },
   {
     id: 14,
-    img: _p19.default,
+    img: _p18.default,
     descripcion: 'Notifications in the browser, the tools used were the following:',
     link: 'https://nodepushnotification-production.up.railway.app/',
     gitlink: 'https://github.com/Maze000/nodePushNotification',
@@ -48561,7 +48561,7 @@ var App = function App() {
   //{ id: 15, img: image25pro, descripcion: 'Proyecto 15' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']},
   {
     id: 16,
-    img: _p21.default,
+    img: _p20.default,
     descripcion: 'Quiz test, the tools used were the following:',
     link: 'https://jsquiz-production.up.railway.app/',
     gitlink: 'https://github.com/Maze000/jsQuiz',
@@ -48572,7 +48572,7 @@ var App = function App() {
   //{ id: 19, img: image29pro, descripcion: 'Proyecto 19' },
   {
     id: 20,
-    img: _p25.default,
+    img: _p24.default,
     descripcion: 'Api rest for film showcase, the tools used were the following:',
     link: 'https://patriciomolinae.com/',
     gitlink: 'https://github.com/Maze000/movieAPiRest',
@@ -48581,14 +48581,14 @@ var App = function App() {
   //{ id: 21, img: image31pro, descripcion: 'Proyecto 21' },
   {
     id: 21,
-    img: _p27.default,
+    img: _p26.default,
     descripcion: 'User validation with token, the tools used were the following:',
     link: 'https://mernuservalidatorcrud-production.up.railway.app/login',
     gitlink: 'https://github.com/Maze000/mernUserValidatorCrud',
     elementos: ['React', 'Express', 'Mongoose', 'JSON Web Token (JWT)', 'Webpack', 'Jest']
   }, {
     id: 21,
-    img: _p28.default,
+    img: _p27.default,
     descripcion: 'Online payment system, the tools used were the following:',
     link: 'https://patriciomolinae.com/',
     gitlink: 'https://patriciomolinae.com/',
@@ -48597,21 +48597,21 @@ var App = function App() {
   //{ id: 21, img: image34pro, descripcion: 'Proyecto 24' },
   {
     id: 21,
-    img: _p30.default,
+    img: _p29.default,
     descripcion: 'Portfolio developed in React, the tools used were the following:',
     link: 'https://patriciomolinae.com/',
     gitlink: 'https://github.com/Maze000/portfolioPm',
     elementos: ['React', 'React DOM', 'React Router DOM', 'React Scroll', 'Express', 'Nodemailer']
   }, {
     id: 21,
-    img: _p31.default,
+    img: _p30.default,
     descripcion: 'Integration of chatgpt api, the tools used were the following:',
     link: 'https://patriciomolinae.com/',
     gitlink: 'https://github.com/Maze000/chatGptApi',
     elementos: ['React', 'React DOM', 'OpenAI API', 'Fetch API', 'CSS']
   }, {
     id: 21,
-    img: _p32.default,
+    img: _p31.default,
     descripcion: 'Integration of chatgpt api for Dall-E2, the tools used were the following:',
     link: 'https://patriciomolinae.com/',
     gitlink: 'https://github.com/Maze000/dallEApi',
@@ -48865,7 +48865,7 @@ var App = function App() {
   }, /*#__PURE__*/_react.default.createElement("strong", null, " PATRICIO MOLINA")), ". All rights reserved.")))));
 };
 var _default = exports.default = App;
-},{"react":"../node_modules/react/index.js","react-scroll":"../node_modules/react-scroll/modules/index.js","./Contact.js":"../components/Contact.js","./consola.css":"../components/consola.css","../dist/img/1.png":"../dist/img/1.png","../dist/img/2.png":"../dist/img/2.png","../dist/img/3.png":"../dist/img/3.png","../dist/img/4.png":"../dist/img/4.png","../dist/img/5.png":"../dist/img/5.png","../dist/img/6.png":"../dist/img/6.png","../dist/img/7.png":"../dist/img/7.png","../dist/img/8.png":"../dist/img/8.png","../dist/img/9.png":"../dist/img/9.png","../dist/img/10.png":"../dist/img/10.png","../dist/img/11.png":"../dist/img/11.png","../dist/img/12.png":"../dist/img/12.png","../dist/img/13.png":"../dist/img/13.png","../dist/img/14.png":"../dist/img/14.png","../dist/img/15.png":"../dist/img/15.png","../dist/img/16.png":"../dist/img/16.png","../dist/img/17.png":"../dist/img/17.png","../dist/img/17p.png":"../dist/img/17p.png","../dist/img/11p.png":"../dist/img/11p.png","../dist/img/11p2.png":"../dist/img/11p2.png","../dist/img/12p.png":"../dist/img/12p.png","../dist/img/12p2.png":"../dist/img/12p2.png","../dist/img/13p.png":"../dist/img/13p.png","../dist/img/13p2.png":"../dist/img/13p2.png","../dist/img/14p.png":"../dist/img/14p.png","../dist/img/14p2.png":"../dist/img/14p2.png","../dist/img/15p.png":"../dist/img/15p.png","../dist/img/15p2.png":"../dist/img/15p2.png","../dist/img/16p.png":"../dist/img/16p.png","../dist/img/18p.png":"../dist/img/18p.png","../dist/img/19p.png":"../dist/img/19p.png","../dist/img/20p.png":"../dist/img/20p.png","../dist/img/21p.png":"../dist/img/21p.png","../dist/img/22p.png":"../dist/img/22p.png","../dist/img/23p.png":"../dist/img/23p.png","../dist/img/24p.png":"../dist/img/24p.png","../dist/img/25p.png":"../dist/img/25p.png","../dist/img/26p.png":"../dist/img/26p.png","../dist/img/27p.png":"../dist/img/27p.png","../dist/img/28p.png":"../dist/img/28p.png","../dist/img/29p.png":"../dist/img/29p.png","../dist/img/30p.png":"../dist/img/30p.png","../dist/img/31p.png":"../dist/img/31p.png","../dist/img/32p.png":"../dist/img/32p.png","../dist/img/33p.png":"../dist/img/33p.png","../dist/img/34p.png":"../dist/img/34p.png","../dist/img/35p.png":"../dist/img/35p.png","../dist/img/36p.png":"../dist/img/36p.png","../dist/img/37p.png":"../dist/img/37p.png","@fortawesome/react-fontawesome":"../node_modules/@fortawesome/react-fontawesome/index.es.js","@fortawesome/free-brands-svg-icons":"../node_modules/@fortawesome/free-brands-svg-icons/index.mjs"}],"../components/Construccion.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-scroll":"../node_modules/react-scroll/modules/index.js","./Contact.js":"../components/Contact.js","./consola.css":"../components/consola.css","../dist/img/1.png":"../dist/img/1.png","../dist/img/2.png":"../dist/img/2.png","../dist/img/3.png":"../dist/img/3.png","../dist/img/4.png":"../dist/img/4.png","../dist/img/5.png":"../dist/img/5.png","../dist/img/6.png":"../dist/img/6.png","../dist/img/7.png":"../dist/img/7.png","../dist/img/8.png":"../dist/img/8.png","../dist/img/9.png":"../dist/img/9.png","../dist/img/10.png":"../dist/img/10.png","../dist/img/11.png":"../dist/img/11.png","../dist/img/12.png":"../dist/img/12.png","../dist/img/13.png":"../dist/img/13.png","../dist/img/14.png":"../dist/img/14.png","../dist/img/15.png":"../dist/img/15.png","../dist/img/16.png":"../dist/img/16.png","../dist/img/17.png":"../dist/img/17.png","../dist/img/17p.png":"../dist/img/17p.png","../dist/img/11p.png":"../dist/img/11p.png","../dist/img/11p2.png":"../dist/img/11p2.png","../dist/img/12p.png":"../dist/img/12p.png","../dist/img/12p2.png":"../dist/img/12p2.png","../dist/img/13p.png":"../dist/img/13p.png","../dist/img/img1.png":"../dist/img/img1.png","../dist/img/14p.png":"../dist/img/14p.png","../dist/img/14p2.png":"../dist/img/14p2.png","../dist/img/15p.png":"../dist/img/15p.png","../dist/img/15p2.png":"../dist/img/15p2.png","../dist/img/16p.png":"../dist/img/16p.png","../dist/img/18p.png":"../dist/img/18p.png","../dist/img/19p.png":"../dist/img/19p.png","../dist/img/20p.png":"../dist/img/20p.png","../dist/img/21p.png":"../dist/img/21p.png","../dist/img/22p.png":"../dist/img/22p.png","../dist/img/23p.png":"../dist/img/23p.png","../dist/img/24p.png":"../dist/img/24p.png","../dist/img/25p.png":"../dist/img/25p.png","../dist/img/26p.png":"../dist/img/26p.png","../dist/img/27p.png":"../dist/img/27p.png","../dist/img/28p.png":"../dist/img/28p.png","../dist/img/29p.png":"../dist/img/29p.png","../dist/img/30p.png":"../dist/img/30p.png","../dist/img/31p.png":"../dist/img/31p.png","../dist/img/32p.png":"../dist/img/32p.png","../dist/img/33p.png":"../dist/img/33p.png","../dist/img/34p.png":"../dist/img/34p.png","../dist/img/35p.png":"../dist/img/35p.png","../dist/img/36p.png":"../dist/img/36p.png","../dist/img/37p.png":"../dist/img/37p.png","@fortawesome/react-fontawesome":"../node_modules/@fortawesome/react-fontawesome/index.es.js","@fortawesome/free-brands-svg-icons":"../node_modules/@fortawesome/free-brands-svg-icons/index.mjs"}],"../components/Construccion.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -48971,7 +48971,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39575" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39759" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
