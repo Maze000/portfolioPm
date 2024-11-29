@@ -48491,7 +48491,7 @@ var App = function App() {
     id: 2,
     img: _p4.default,
     descripcion: 'Crud api rest, Estherium blockchain network, the tools used were the following:',
-    link: 'https://ecommercemern-production.up.railway.app/form-1',
+    link: 'https://patriciomolinae.com/',
     gitlink: 'https://github.com/Maze000/solidityBlockChain',
     elementos: ['Solidity', 'Ethereum', 'Smart Contracts', 'Web3.js', 'Node.js', 'Hardhat']
   }, {
@@ -48514,8 +48514,8 @@ var App = function App() {
     id: 6,
     img: _p12.default,
     descripcion: 'Image gallery, the tools used were the following:',
-    link: 'https://reacttsapp-production.up.railway.app/',
-    gitlink: 'https://github.com/Maze000/reactTsApp',
+    link: 'https://patriciomolinae.com/',
+    gitlink: 'https://patriciomolinae.com/',
     elementos: ['React', 'React DOM', 'React Router DOM', 'CSS']
   },
   // { id: 7, img: image17pro, descripcion: 'Proyecto 7' },
@@ -48569,7 +48569,7 @@ var App = function App() {
     id: 20,
     img: _p25.default,
     descripcion: 'Api rest for film showcase, the tools used were the following:',
-    link: 'https://ecommercemern-production.up.railway.app/form-1',
+    link: 'https://patriciomolinae.com/',
     gitlink: 'https://github.com/Maze000/movieAPiRest',
     elementos: ['React', 'React DOM', 'Webpack', 'Babel', 'Bootswatch', 'OMDb API']
   },
@@ -48585,8 +48585,8 @@ var App = function App() {
     id: 21,
     img: _p28.default,
     descripcion: 'Online payment system, the tools used were the following:',
-    link: 'https://ecommercemern-production.up.railway.app/form-1',
-    gitlink: 'https://github.com/Maze000/ecommerceMern',
+    link: 'https://patriciomolinae.com/',
+    gitlink: 'https://patriciomolinae.com/',
     elementos: ['React', 'React DOM', 'React Router DOM', 'Stripe API', 'Fetch', 'Webpack']
   },
   //{ id: 21, img: image34pro, descripcion: 'Proyecto 24' },
@@ -48601,14 +48601,14 @@ var App = function App() {
     id: 21,
     img: _p31.default,
     descripcion: 'Integration of chatgpt api, the tools used were the following:',
-    link: 'https://ecommercemern-production.up.railway.app/form-1',
+    link: 'https://patriciomolinae.com/',
     gitlink: 'https://github.com/Maze000/chatGptApi',
     elementos: ['React', 'React DOM', 'OpenAI API', 'Fetch API', 'CSS']
   }, {
     id: 21,
     img: _p32.default,
     descripcion: 'Integration of chatgpt api for Dall-E2, the tools used were the following:',
-    link: 'https://ecommercemern-production.up.railway.app/form-1',
+    link: 'https://patriciomolinae.com/',
     gitlink: 'https://github.com/Maze000/dallEApi',
     elementos: ['React', 'React DOM', 'OpenAI API', 'Fetch API', 'CSS']
   }];
@@ -48966,7 +48966,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37905" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37201" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
