@@ -48506,7 +48506,7 @@ var App = function App() {
     img: _p8.default,
     descripcion: 'Portfolio developed in Nextjs, the tools used were the following:',
     link: 'https://nextportfolio-production.up.railway.app/',
-    gitlink: 'https://github.com/Maze000/nextPortfolio2',
+    gitlink: 'https://github.com/Maze000/nextPortfolio',
     elementos: ['Next.js', 'React', 'Animate.css', 'Bootswatch', 'Classnames', 'NProgress']
   },
   //{ id: 5, img: image15p, descripcion: 'Proyecto 5' },
@@ -48966,7 +48966,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "35169" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37905" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
