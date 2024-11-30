@@ -241,7 +241,7 @@ const App = () => {
             <div className="proyect-box" key={proyecto.id}>
               <div>
                 <a href={proyecto.link} target="_blank" className="project">
-                  <img src={proyecto.img} alt={proyecto.descripcion} />
+                  <img src={proyecto.img} loading="lazy" alt={proyecto.descripcion} />
                 </a>
                 <p className='tittle-proyect'>{proyecto.descripcion}</p>
                 <ul className="vertical-list">
