@@ -48493,7 +48493,7 @@ var App = function App() {
     descripcion: 'Crud api rest, Estherium blockchain network, the tools used were the following:',
     link: 'https://patriciomolinae.com/',
     gitlink: 'https://github.com/Maze000/solidityBlockChain',
-    elementos: ['Solidity', 'Ethereum', 'Smart Contracts', 'Web3.js', 'Node.js', 'Hardhat']
+    elementos: ['Solidity', 'Ethereum', 'Smart Contracts', 'Ganache', 'Nodejs', 'Bootstrap']
   }, {
     id: 3,
     img: _p6.default,
@@ -48971,7 +48971,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "46301" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33987" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
