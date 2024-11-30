@@ -48563,7 +48563,7 @@ var App = function App() {
     id: 16,
     img: _p21.default,
     descripcion: 'Quiz test, the tools used were the following:',
-    link: 'quizjs-production.up.railway.app',
+    link: 'https://quizjs-production.up.railway.app/',
     gitlink: 'https://github.com/Maze000/quizJs',
     elementos: ['HTML', 'JS', 'CSS']
   },
@@ -48971,7 +48971,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44345" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "46301" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
