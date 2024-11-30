@@ -48563,8 +48563,8 @@ var App = function App() {
     id: 16,
     img: _p21.default,
     descripcion: 'Quiz test, the tools used were the following:',
-    link: 'https://jsquiz-production.up.railway.app/',
-    gitlink: 'https://github.com/Maze000/jsQuiz',
+    link: 'quizjs-production.up.railway.app',
+    gitlink: 'https://github.com/Maze000/quizJs',
     elementos: ['HTML', 'JS', 'CSS']
   },
   //{ id: 17, img: image27pro, descripcion: 'Proyecto 17' },
@@ -48971,7 +48971,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43047" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44345" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
