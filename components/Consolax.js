@@ -99,7 +99,7 @@ const App = () => {
    // { id: 13, img: image23pro, descripcion: 'Proyecto 13' },
     { id: 14, img: image24pro, descripcion: 'Notifications in the browser, the tools used were the following:' , link: 'https://nodepushnotification-production.up.railway.app/' ,gitlink: 'https://github.com/Maze000/nodePushNotification',elementos: ['Node.js', 'Express', 'Web Push', 'Dotenv', 'Morgan', 'Nodemon']},
     //{ id: 15, img: image25pro, descripcion: 'Proyecto 15' , link: 'https://ecommercemern-production.up.railway.app/form-1' ,elementos: ['Elemento 1A', 'Elemento 2A', 'Elemento 3A', 'Elemento 4A', 'Elemento 3A', 'Elemento 4A']},
-    { id: 16, img: image26pro, descripcion: 'Quiz test, the tools used were the following:' , link: 'https://jsquiz-production.up.railway.app/' ,gitlink: 'https://github.com/Maze000/jsQuiz',elementos: ['HTML', 'JS', 'CSS']},
+    { id: 16, img: image26pro, descripcion: 'Quiz test, the tools used were the following:' , link: 'quizjs-production.up.railway.app' ,gitlink: 'https://github.com/Maze000/quizJs',elementos: ['HTML', 'JS', 'CSS']},
     //{ id: 17, img: image27pro, descripcion: 'Proyecto 17' },
     //{ id: 18, img: image28pro, descripcion: 'Proyecto 18' },
     //{ id: 19, img: image29pro, descripcion: 'Proyecto 19' },
