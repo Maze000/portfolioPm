@@ -20,7 +20,7 @@ import image15 from '../dist/img/15.png';
 import image16 from '../dist/img/16.png';
 import image17 from '../dist/img/17.png';
 import image17p from '../dist/img/17p.png';
-import image11p from '../dist/img/11p.png';
+import image11p from '../dist/img/11p.webp';
 import image11p2 from '../dist/img/11p2.png';
 import image12p from '../dist/img/12p.png';
 import image12p2 from '../dist/img/12p2.png';
@@ -241,7 +241,7 @@ const App = () => {
             <div className="proyect-box" key={proyecto.id}>
               <div>
                 <a href={proyecto.link} target="_blank" className="project">
-                  <img src={proyecto.img} loading="lazy" alt={proyecto.descripcion} />
+                  <img src={proyecto.img}  alt={proyecto.descripcion} />
                 </a>
                 <p className='tittle-proyect'>{proyecto.descripcion}</p>
                 <ul className="vertical-list">

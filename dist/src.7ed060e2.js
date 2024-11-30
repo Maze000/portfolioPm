@@ -42056,8 +42056,8 @@ module.exports = "/16.0adcb10f.png";
 module.exports = "/17.6419403d.png";
 },{}],"../dist/img/17p.png":[function(require,module,exports) {
 module.exports = "/17p.56028ea6.png";
-},{}],"../dist/img/11p.png":[function(require,module,exports) {
-module.exports = "/11p.01edca24.png";
+},{}],"../dist/img/11p.webp":[function(require,module,exports) {
+module.exports = "/11p.a23d1ca6.webp";
 },{}],"../dist/img/11p2.png":[function(require,module,exports) {
 module.exports = "/11p2.48bef105.png";
 },{}],"../dist/img/12p.png":[function(require,module,exports) {
@@ -48408,7 +48408,7 @@ var _15 = _interopRequireDefault(require("../dist/img/15.png"));
 var _16 = _interopRequireDefault(require("../dist/img/16.png"));
 var _17 = _interopRequireDefault(require("../dist/img/17.png"));
 var _p = _interopRequireDefault(require("../dist/img/17p.png"));
-var _p2 = _interopRequireDefault(require("../dist/img/11p.png"));
+var _p2 = _interopRequireDefault(require("../dist/img/11p.webp"));
 var _p3 = _interopRequireDefault(require("../dist/img/11p2.png"));
 var _p4 = _interopRequireDefault(require("../dist/img/12p.png"));
 var _p5 = _interopRequireDefault(require("../dist/img/12p2.png"));
@@ -48805,7 +48805,6 @@ var App = function App() {
       className: "project"
     }, /*#__PURE__*/_react.default.createElement("img", {
       src: proyecto.img,
-      loading: "lazy",
       alt: proyecto.descripcion
     })), /*#__PURE__*/_react.default.createElement("p", {
       className: "tittle-proyect"
@@ -48866,7 +48865,7 @@ var App = function App() {
   }, /*#__PURE__*/_react.default.createElement("strong", null, " PATRICIO MOLINA")), ". All rights reserved.")))));
 };
 var _default = exports.default = App;
-},{"react":"../node_modules/react/index.js","react-scroll":"../node_modules/react-scroll/modules/index.js","./Contact.js":"../components/Contact.js","./consola.css":"../components/consola.css","../dist/img/1.png":"../dist/img/1.png","../dist/img/2.png":"../dist/img/2.png","../dist/img/3.png":"../dist/img/3.png","../dist/img/4.png":"../dist/img/4.png","../dist/img/5.png":"../dist/img/5.png","../dist/img/6.png":"../dist/img/6.png","../dist/img/7.png":"../dist/img/7.png","../dist/img/8.png":"../dist/img/8.png","../dist/img/9.png":"../dist/img/9.png","../dist/img/10.png":"../dist/img/10.png","../dist/img/11.png":"../dist/img/11.png","../dist/img/12.png":"../dist/img/12.png","../dist/img/13.png":"../dist/img/13.png","../dist/img/14.png":"../dist/img/14.png","../dist/img/15.png":"../dist/img/15.png","../dist/img/16.png":"../dist/img/16.png","../dist/img/17.png":"../dist/img/17.png","../dist/img/17p.png":"../dist/img/17p.png","../dist/img/11p.png":"../dist/img/11p.png","../dist/img/11p2.png":"../dist/img/11p2.png","../dist/img/12p.png":"../dist/img/12p.png","../dist/img/12p2.png":"../dist/img/12p2.png","../dist/img/13p.png":"../dist/img/13p.png","../dist/img/img1.png":"../dist/img/img1.png","../dist/img/14p.png":"../dist/img/14p.png","../dist/img/14p2.png":"../dist/img/14p2.png","../dist/img/15p.png":"../dist/img/15p.png","../dist/img/15p2.png":"../dist/img/15p2.png","../dist/img/16p.png":"../dist/img/16p.png","../dist/img/18p.png":"../dist/img/18p.png","../dist/img/19p.png":"../dist/img/19p.png","../dist/img/20p.png":"../dist/img/20p.png","../dist/img/21p.png":"../dist/img/21p.png","../dist/img/22p.png":"../dist/img/22p.png","../dist/img/23p.png":"../dist/img/23p.png","../dist/img/24p.png":"../dist/img/24p.png","../dist/img/25p.png":"../dist/img/25p.png","../dist/img/26p.png":"../dist/img/26p.png","../dist/img/27p.png":"../dist/img/27p.png","../dist/img/28p.png":"../dist/img/28p.png","../dist/img/29p.png":"../dist/img/29p.png","../dist/img/30p.png":"../dist/img/30p.png","../dist/img/31p.png":"../dist/img/31p.png","../dist/img/32p.png":"../dist/img/32p.png","../dist/img/33p.png":"../dist/img/33p.png","../dist/img/34p.png":"../dist/img/34p.png","../dist/img/35p.png":"../dist/img/35p.png","../dist/img/36p.png":"../dist/img/36p.png","../dist/img/37p.png":"../dist/img/37p.png","@fortawesome/react-fontawesome":"../node_modules/@fortawesome/react-fontawesome/index.es.js","@fortawesome/free-brands-svg-icons":"../node_modules/@fortawesome/free-brands-svg-icons/index.mjs"}],"../components/Construccion.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-scroll":"../node_modules/react-scroll/modules/index.js","./Contact.js":"../components/Contact.js","./consola.css":"../components/consola.css","../dist/img/1.png":"../dist/img/1.png","../dist/img/2.png":"../dist/img/2.png","../dist/img/3.png":"../dist/img/3.png","../dist/img/4.png":"../dist/img/4.png","../dist/img/5.png":"../dist/img/5.png","../dist/img/6.png":"../dist/img/6.png","../dist/img/7.png":"../dist/img/7.png","../dist/img/8.png":"../dist/img/8.png","../dist/img/9.png":"../dist/img/9.png","../dist/img/10.png":"../dist/img/10.png","../dist/img/11.png":"../dist/img/11.png","../dist/img/12.png":"../dist/img/12.png","../dist/img/13.png":"../dist/img/13.png","../dist/img/14.png":"../dist/img/14.png","../dist/img/15.png":"../dist/img/15.png","../dist/img/16.png":"../dist/img/16.png","../dist/img/17.png":"../dist/img/17.png","../dist/img/17p.png":"../dist/img/17p.png","../dist/img/11p.webp":"../dist/img/11p.webp","../dist/img/11p2.png":"../dist/img/11p2.png","../dist/img/12p.png":"../dist/img/12p.png","../dist/img/12p2.png":"../dist/img/12p2.png","../dist/img/13p.png":"../dist/img/13p.png","../dist/img/img1.png":"../dist/img/img1.png","../dist/img/14p.png":"../dist/img/14p.png","../dist/img/14p2.png":"../dist/img/14p2.png","../dist/img/15p.png":"../dist/img/15p.png","../dist/img/15p2.png":"../dist/img/15p2.png","../dist/img/16p.png":"../dist/img/16p.png","../dist/img/18p.png":"../dist/img/18p.png","../dist/img/19p.png":"../dist/img/19p.png","../dist/img/20p.png":"../dist/img/20p.png","../dist/img/21p.png":"../dist/img/21p.png","../dist/img/22p.png":"../dist/img/22p.png","../dist/img/23p.png":"../dist/img/23p.png","../dist/img/24p.png":"../dist/img/24p.png","../dist/img/25p.png":"../dist/img/25p.png","../dist/img/26p.png":"../dist/img/26p.png","../dist/img/27p.png":"../dist/img/27p.png","../dist/img/28p.png":"../dist/img/28p.png","../dist/img/29p.png":"../dist/img/29p.png","../dist/img/30p.png":"../dist/img/30p.png","../dist/img/31p.png":"../dist/img/31p.png","../dist/img/32p.png":"../dist/img/32p.png","../dist/img/33p.png":"../dist/img/33p.png","../dist/img/34p.png":"../dist/img/34p.png","../dist/img/35p.png":"../dist/img/35p.png","../dist/img/36p.png":"../dist/img/36p.png","../dist/img/37p.png":"../dist/img/37p.png","@fortawesome/react-fontawesome":"../node_modules/@fortawesome/react-fontawesome/index.es.js","@fortawesome/free-brands-svg-icons":"../node_modules/@fortawesome/free-brands-svg-icons/index.mjs"}],"../components/Construccion.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -48972,7 +48971,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38371" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "32907" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
