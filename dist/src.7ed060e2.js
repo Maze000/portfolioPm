@@ -48691,6 +48691,15 @@ var App = function App() {
   }, /*#__PURE__*/_react.default.createElement(_reactFontawesome.FontAwesomeIcon, {
     icon: _freeBrandsSvgIcons.faGithub,
     size: "2x"
+  })), /*#__PURE__*/_react.default.createElement("a", {
+    href: "https://www.artstation.com/moved_design-00",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    className: "nav-icon",
+    onClick: toggleMenu
+  }, /*#__PURE__*/_react.default.createElement(_reactFontawesome.FontAwesomeIcon, {
+    icon: _freeBrandsSvgIcons.faArtstation,
+    size: "2x"
   }))))), /*#__PURE__*/_react.default.createElement(_reactScroll.Element, {
     name: "nombre",
     className: "element-name img0"
@@ -48971,7 +48980,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33987" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "35631" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

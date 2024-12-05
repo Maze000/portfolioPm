@@ -148,6 +148,16 @@ const App = () => {
   >
     <FontAwesomeIcon icon={faGithub} size="2x" />
   </a>
+
+  <a 
+    href="https://www.artstation.com/moved_design-00" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="nav-icon"
+    onClick={toggleMenu}  
+  >
+    <FontAwesomeIcon icon={faArtstation} size="2x" />
+  </a>
             
             </div>
         </nav>
